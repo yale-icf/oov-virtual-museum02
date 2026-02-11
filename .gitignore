@@ -1,0 +1,17 @@
+# Generated assets (large, reproducible from build scripts)
+origins-of-value/site/tiles/
+origins-of-value/site/thumbnails/
+
+# Node
+origins-of-value/scripts/node_modules/
+origins-of-value/scripts/package-lock.json
+
+# OS junk
+Thumbs.db
+.DS_Store
+nul
+
+# Source data (large, not code)
+origins-of-value/JPEG Files/
+origins-of-value/museum-database.json
+origins-of-value/*.xlsx
