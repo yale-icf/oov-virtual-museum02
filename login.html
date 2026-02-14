@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      background: #0d1a2d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      text-align: center;
+      border-top: 4px solid var(--gold);
+    }
+    .login-box h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: var(--navy);
+      margin-bottom: 0.3rem;
+    }
+    .login-box h1 span { color: var(--gold); }
+    .login-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+    .login-input {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1px solid #c8c0b0;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .login-input:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
+    }
+    .login-btn {
+      width: 100%;
+      padding: 0.7rem;
+      background: var(--navy);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .login-btn:hover { background: var(--navy-light); }
+    .login-error {
+      color: #c0392b;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="login-box">
+    <h1>Origins of <span>Value</span></h1>
+    <p class="login-subtitle">Enter the password to access the museum</p>
+    <form id="login-form">
+      <input type="password" class="login-input" id="password" placeholder="Password" autofocus>
+      <button type="submit" class="login-btn">Enter</button>
+      <p class="login-error" id="login-error">Incorrect password. Please try again.</p>
+    </form>
+  </div>
+  <script>
+    (function () {
+      function getHash(str) {
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+          hash = ((hash << 5) - hash) + str.charCodeAt(i);
+          hash |= 0;
+        }
+        return hash.toString();
+      }
+
+      var EXPECTED = getHash('oov26icf');
+
+      // Already authenticated
+      if (sessionStorage.getItem('oov_auth') === EXPECTED) {
+        window.location.replace('index.html');
+        return;
+      }
+
+      document.getElementById('login-form').addEventListener('submit', function (e) {
+        e.preventDefault();
+        var pw = document.getElementById('password').value;
+        if (getHash(pw) === EXPECTED) {
+          sessionStorage.setItem('oov_auth', EXPECTED);
+          window.location.replace('index.html');
+        } else {
+          document.getElementById('login-error').style.display = 'block';
+          document.getElementById('password').value = '';
+          document.getElementById('password').focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
