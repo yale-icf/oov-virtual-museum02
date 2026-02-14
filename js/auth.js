@@ -17,10 +17,10 @@
 
   if (sessionStorage.getItem('oov_auth') === EXPECTED) return;
 
-  // Don't redirect if already on the login page
+  // Don't redirect if on the homepage (it has its own login overlay)
   var path = window.location.pathname;
-  if (path.endsWith('login.html') || path.endsWith('login')) return;
+  if (path.endsWith('index.html') || path.endsWith('/')) return;
 
-  // Redirect to login
-  window.location.replace('login.html');
+  // Redirect to homepage for login
+  window.location.replace('index.html');
 })();
