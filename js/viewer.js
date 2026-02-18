@@ -74,7 +74,7 @@
     if (item.pages && item.pages[currentPage]) {
       tileId = item.pages[currentPage].id;
     }
-    var dziUrl = 'tiles/' + tileId + '/' + tileId + '.dzi';
+    var dziUrl = 'https://pub-1eab5fd66b714905892d924cc8227d94.r2.dev/tiles/' + tileId + '/' + tileId + '.dzi';
 
     if (viewer) {
       viewer.open(dziUrl);
