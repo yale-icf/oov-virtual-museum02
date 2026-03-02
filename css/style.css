@@ -1466,8 +1466,7 @@ body.homepage {
 
 .exhibit-piece {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  min-height: 500px;
+  grid-template-columns: 420px 1fr;
   border-bottom: 1px solid #e8e4dc;
 }
 
@@ -1480,15 +1479,20 @@ body.homepage {
 }
 
 .exhibit-piece-img {
-  overflow: hidden;
   background: var(--parchment);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
 
 .exhibit-piece-img img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 520px;
+  object-fit: contain;
   display: block;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
 .exhibit-piece-body {
@@ -1572,7 +1576,6 @@ body.homepage {
 
   .exhibit-piece {
     grid-template-columns: 1fr;
-    min-height: unset;
   }
 
   .exhibit-piece.reverse {
@@ -1580,7 +1583,8 @@ body.homepage {
   }
 
   .exhibit-piece-img {
-    height: 280px;
+    padding: 1.5rem;
+    max-height: 380px;
   }
 
   .exhibit-piece-body {
