@@ -328,9 +328,8 @@
     const grid = document.getElementById('coll-grid');
 
     if (exhibitMode) {
-      const exhibitItems = EXHIBIT_IDS.map(id => allItems.find(item => item.id === id)).filter(Boolean);
-      grid.classList.add('coll-grid--exhibit');
-      renderGrid(exhibitItems, exhibitItems.length);
+      grid.classList.remove('coll-grid--exhibit');
+      renderGrid(allItems.slice(0, 8), 8);
       document.getElementById('coll-pagination').innerHTML = '';
     } else {
       grid.classList.remove('coll-grid--exhibit');
