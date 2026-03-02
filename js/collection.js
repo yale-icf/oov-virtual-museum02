@@ -329,10 +329,6 @@
   function render() {
     const exhibitMode = isExhibitMode();
 
-    // Show/hide exhibit intro blurb
-    const intro = document.getElementById('coll-exhibit-intro');
-    if (intro) intro.style.display = exhibitMode ? '' : 'none';
-
     // Show/hide sort bar
     const resultsBar = document.querySelector('.coll-results-bar');
     if (resultsBar) resultsBar.style.display = exhibitMode ? 'none' : '';
