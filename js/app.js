@@ -6,7 +6,7 @@
   let filterIndex = {};
   let filteredItems = [];
   let currentPage = 1;
-  let activeFilters = { type: [], issuingCountry: [], currency: [], language: [], period: [], namedIndividuals: [] };
+  let activeFilters = { period: [], issuingCountry: [], type: [], language: [] };
   let searchQuery = '';
   let observer = null;
 
@@ -45,12 +45,10 @@
   // ===== Filter Sidebar =====
   function buildFilterSidebar() {
     const filterFields = [
-      { key: 'type', el: document.getElementById('filter-type') },
       { key: 'period', el: document.getElementById('filter-period') },
       { key: 'issuingCountry', el: document.getElementById('filter-issuingCountry') },
-      { key: 'currency', el: document.getElementById('filter-currency') },
-      { key: 'language', el: document.getElementById('filter-language') },
-      { key: 'namedIndividuals', el: document.getElementById('filter-namedIndividuals') }
+      { key: 'type', el: document.getElementById('filter-type') },
+      { key: 'language', el: document.getElementById('filter-language') }
     ];
 
     for (const { key, el } of filterFields) {
@@ -102,7 +100,7 @@
 
     // Clear filters
     clearFiltersBtn.addEventListener('click', function () {
-      activeFilters = { type: [], issuingCountry: [], currency: [], language: [], period: [], namedIndividuals: [] };
+      activeFilters = { period: [], issuingCountry: [], type: [], language: [] };
       searchQuery = '';
       searchInput.value = '';
       currentPage = 1;
@@ -405,7 +403,7 @@
       currentPage = parseInt(params.get('page'), 10) || 1;
     }
 
-    var fields = ['type', 'issuingCountry', 'currency', 'language', 'period', 'namedIndividuals'];
+    var fields = ['period', 'issuingCountry', 'type', 'language'];
     for (var i = 0; i < fields.length; i++) {
       var field = fields[i];
       if (params.has(field)) {
