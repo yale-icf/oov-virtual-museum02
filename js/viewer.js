@@ -147,12 +147,7 @@
       valueDiv.className = 'metadata-value';
 
       if (f.isTags && Array.isArray(val)) {
-        for (var j = 0; j < val.length; j++) {
-          var tag = document.createElement('span');
-          tag.className = 'tag';
-          tag.textContent = val[j];
-          valueDiv.appendChild(tag);
-        }
+        valueDiv.textContent = val.join(', ');
       } else if (f.isTranscription) {
         var pre = document.createElement('div');
         pre.className = 'transcription-text';
