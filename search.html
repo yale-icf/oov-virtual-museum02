@@ -7,60 +7,10 @@
   <link rel="stylesheet" href="css/style.css">
   <script src="js/auth.js"></script>
   <style>
-    /* ── Layout ─────────────────────────────────────────── */
-    .cs-layout {
-      display: flex;
-      min-height: calc(100vh - 120px);
-    }
-    .cs-sidebar {
-      width: 220px;
-      flex-shrink: 0;
-      background: #ece3ce;
-      border-right: 1px solid #c4a87a;
-      padding: 16px 14px;
-      font-size: .85rem;
-      font-family: Georgia, serif;
-      color: #2c1a0e;
-    }
-    .cs-sidebar h2 {
-      font-size: .85rem;
-      text-transform: uppercase;
-      letter-spacing: .06em;
-      color: #5a3e2b;
-      margin: 0 0 10px;
-      border-bottom: 1px solid #c4a87a;
-      padding-bottom: 4px;
-    }
-    .cs-filter-group { margin-bottom: 14px; }
-    .cs-filter-group h3 {
-      font-size: .78rem;
-      text-transform: uppercase;
-      letter-spacing: .05em;
-      color: #7a5533;
-      margin: 0 0 5px;
-    }
-    .cs-filter-group label { display: block; margin: 2px 0; cursor: pointer; line-height: 1.4; }
-    .cs-filter-group input[type=checkbox] { margin-right: 4px; }
-    .cs-year-row { display: flex; gap: 5px; align-items: center; }
-    .cs-year-row input[type=number] {
-      width: 62px; padding: 3px 5px;
-      border: 1px solid #c4a87a; background: #fdf8ef;
-      color: #2c1a0e; border-radius: 3px; font-size: .8rem;
-    }
-    .cs-apply-btn {
-      width: 100%; margin-top: 8px; padding: 7px;
-      background: #3b2008; color: #f5efe0; border: none;
-      border-radius: 4px; cursor: pointer; font-size: .85rem;
-      font-family: Georgia, serif;
-    }
-    .cs-apply-btn:hover { background: #5a3e2b; }
-    .cs-reset { display: block; text-align: center; margin-top: 7px; font-size: .78rem; color: #7a5533; }
-
     /* ── Main area ──────────────────────────────────────── */
     .cs-main {
-      flex: 1;
-      padding: 20px 28px;
-      max-width: 860px;
+      padding: 24px 32px;
+      max-width: 900px;
       font-family: Georgia, serif;
       color: #2c1a0e;
     }
@@ -77,10 +27,19 @@
       font-size: .9rem; font-family: Georgia, serif;
     }
     .cs-search-bar button:hover { background: #5a3e2b; }
-    .cs-hint { font-size: .78rem; color: #9e8060; margin: 0 0 14px; }
+    .cs-year-row {
+      display: flex; gap: 6px; align-items: center;
+      margin-bottom: 10px; font-size: .85rem; color: #7a5533;
+      font-family: Georgia, serif;
+    }
+    .cs-year-row input[type=number] {
+      width: 72px; padding: 4px 6px;
+      border: 1px solid #c4a87a; background: #fdf8ef;
+      color: #2c1a0e; border-radius: 3px; font-size: .85rem;
+    }
+    .cs-hint { font-size: .78rem; color: #9e8060; margin: 4px 0 16px; }
     .cs-hint code { background: #ece3ce; padding: 1px 4px; border-radius: 2px; font-size: .78rem; }
     .cs-stats { font-size: .8rem; color: #7a5533; margin-bottom: 16px; }
-
     .cs-status { font-size: .9rem; color: #7a5533; font-style: italic; padding: 20px 0; }
     .cs-result-count { font-size: .85rem; color: #7a5533; margin-bottom: 14px; }
 
@@ -125,10 +84,7 @@
       max-width: 92vw; max-height: 84vh; object-fit: contain;
       border: 2px solid #c4a87a; border-radius: 4px; display: block;
     }
-    #cs-lb-canvas {
-      position: absolute; top: 0; left: 0;
-      pointer-events: none; border-radius: 4px;
-    }
+    #cs-lb-canvas { position: absolute; top: 0; left: 0; pointer-events: none; border-radius: 4px; }
     #cs-lb-close {
       position: absolute; top: 12px; right: 18px;
       color: #f5efe0; font-size: 1.6rem; cursor: pointer;
@@ -154,65 +110,40 @@
   </header>
 
   <form id="cs-form" onsubmit="csSearch(); return false;">
-  <div class="cs-layout">
+  <main class="cs-main">
 
-    <!-- Sidebar -->
-    <aside class="cs-sidebar">
-      <h2>Filters</h2>
-      <div class="cs-filter-group">
-        <h3>Period</h3>
-        <div id="cs-filter-period"></div>
-      </div>
-      <div class="cs-filter-group">
-        <h3>Document Type</h3>
-        <div id="cs-filter-type"></div>
-      </div>
-      <div class="cs-filter-group">
-        <h3>Issuing Country</h3>
-        <div id="cs-filter-country"></div>
-      </div>
-      <div class="cs-filter-group">
-        <h3>Language</h3>
-        <div id="cs-filter-language"></div>
-      </div>
-      <div class="cs-filter-group">
-        <h3>Issue Year</h3>
-        <div class="cs-year-row">
-          <input type="number" id="cs-min-year" placeholder="from" min="1000" max="2100">
-          <span>–</span>
-          <input type="number" id="cs-max-year" placeholder="to" min="1000" max="2100">
-        </div>
-      </div>
-      <button type="submit" class="cs-apply-btn">Apply</button>
-      <a href="search.html" class="cs-reset">Reset all</a>
-    </aside>
+    <div class="cs-search-bar">
+      <input type="text" id="cs-q"
+        placeholder='Search OCR text — try "dividend" or "bearer bond" or "société"'>
+      <button type="submit">Search</button>
+    </div>
 
-    <!-- Main -->
-    <main class="cs-main">
-      <div class="cs-search-bar">
-        <input type="text" id="cs-q"
-          placeholder='Search OCR text — try "dividend" or "bearer bond" or "société"'>
-        <button type="submit">Search</button>
-      </div>
-      <p class="cs-hint">
-        Tip: quotes for phrases (<code>"bearer bond"</code>), <code>*</code> for prefix
-        (<code>franc*</code>), <code>AND</code> / <code>OR</code> / <code>NOT</code> for boolean.
-        Porter stemming on (search → searches → searching).
-      </p>
-      <p class="cs-stats" id="cs-stats"></p>
-      <p class="cs-status" id="cs-status">Loading search index…</p>
-      <div id="cs-results-area" style="display:none">
-        <p class="cs-result-count" id="cs-result-count"></p>
-        <div class="cs-chart-box" id="cs-chart-box" style="display:none">
-          <h3>Hits per Year</h3>
-          <div id="cs-chart-svg"></div>
-        </div>
-        <ul class="cs-results" id="cs-results-list"></ul>
-        <p id="cs-no-results" style="display:none; color:#7a5533; font-style:italic">No results found.</p>
-      </div>
-    </main>
+    <div class="cs-year-row">
+      <span>Year:</span>
+      <input type="number" id="cs-min-year" placeholder="from" min="1000" max="2100">
+      <span>–</span>
+      <input type="number" id="cs-max-year" placeholder="to" min="1000" max="2100">
+    </div>
 
-  </div>
+    <p class="cs-hint">
+      Tip: quotes for phrases (<code>"bearer bond"</code>), <code>*</code> for prefix
+      (<code>franc*</code>), <code>AND</code> / <code>OR</code> / <code>NOT</code> for boolean.
+      Porter stemming on (search → searches → searching).
+    </p>
+    <p class="cs-stats" id="cs-stats"></p>
+    <p class="cs-status" id="cs-status">Loading search index…</p>
+
+    <div id="cs-results-area" style="display:none">
+      <p class="cs-result-count" id="cs-result-count"></p>
+      <div class="cs-chart-box" id="cs-chart-box" style="display:none">
+        <h3>Hits per Year</h3>
+        <div id="cs-chart-svg"></div>
+      </div>
+      <ul class="cs-results" id="cs-results-list"></ul>
+      <p id="cs-no-results" style="display:none; color:#7a5533; font-style:italic">No results found.</p>
+    </div>
+
+  </main>
   </form>
 
   <!-- Lightbox -->
@@ -231,7 +162,6 @@
   <script>
   'use strict';
 
-  // ── State ──────────────────────────────────────────────────────────────────
   var csDb = null;
   var csLbBoxes = null;
   var csLbQuery = '';
@@ -271,53 +201,13 @@
     document.getElementById('cs-stats').textContent = parts.join(' · ');
   }
 
-  // ── Filters ────────────────────────────────────────────────────────────────
-  function csBuildFilters() {
-    var dims = [
-      ['period',          'period'],
-      ['type',            'type'],
-      ['issuing_country', 'country'],
-      ['language',        'language'],
-    ];
-    dims.forEach(function(dim) {
-      var col = dim[0], param = dim[1];
-      var rows = csRows(
-        'SELECT DISTINCT ' + col + ' FROM docs WHERE ' + col + " != '' ORDER BY " + col
-      );
-      var values = new Set();
-      rows.forEach(function(r) {
-        (r[col] || '').split(',').forEach(function(v) {
-          v = v.trim(); if (v) values.add(v);
-        });
-      });
-      var container = document.getElementById('cs-filter-' + param);
-      if (!container) return;
-      Array.from(values).sort().forEach(function(v) {
-        var lbl = document.createElement('label');
-        lbl.innerHTML = '<input type="checkbox" name="' + param + '" value="' +
-          csEsc(v) + '"> ' + csEsc(v);
-        container.appendChild(lbl);
-      });
-    });
-  }
-
-  function csSelected(name) {
-    return Array.from(
-      document.querySelectorAll('input[name="' + name + '"]:checked')
-    ).map(function(el) { return el.value; });
-  }
-
   // ── Search ─────────────────────────────────────────────────────────────────
   function csSearch() {
     if (!csDb) return;
 
-    var query      = document.getElementById('cs-q').value.trim();
-    var selTypes   = new Set(csSelected('type'));
-    var selPeriods = new Set(csSelected('period'));
-    var selCountries = new Set(csSelected('country'));
-    var selLangs   = new Set(csSelected('language'));
-    var minYear    = parseInt(document.getElementById('cs-min-year').value) || null;
-    var maxYear    = parseInt(document.getElementById('cs-max-year').value) || null;
+    var query   = document.getElementById('cs-q').value.trim();
+    var minYear = parseInt(document.getElementById('cs-min-year').value) || null;
+    var maxYear = parseInt(document.getElementById('cs-max-year').value) || null;
 
     var rows;
     try {
@@ -343,30 +233,12 @@
       return;
     }
 
-    // Post-filter
     var results = [];
     var yearCounts = {};
     for (var i = 0; i < rows.length; i++) {
       var r = rows[i];
-      if (selTypes.size) {
-        var dt = new Set((r.type || '').split(',').map(function(s){return s.trim();}));
-        if (!Array.from(selTypes).some(function(t){return dt.has(t);})) continue;
-      }
-      if (selPeriods.size) {
-        var dp = new Set((r.period || '').split(',').map(function(s){return s.trim();}));
-        if (!Array.from(selPeriods).some(function(p){return dp.has(p);})) continue;
-      }
-      if (selCountries.size) {
-        var dc = new Set((r.issuing_country || '').split(',').map(function(s){return s.trim();}));
-        if (!Array.from(selCountries).some(function(c){return dc.has(c);})) continue;
-      }
-      if (selLangs.size) {
-        var dl = new Set((r.language || '').split(',').map(function(s){return s.trim();}));
-        if (!Array.from(selLangs).some(function(l){return dl.has(l);})) continue;
-      }
       if (minYear && r.issue_year && r.issue_year < minYear) continue;
       if (maxYear && r.issue_year && r.issue_year > maxYear) continue;
-
       results.push(r);
       if (r.issue_year) yearCounts[r.issue_year] = (yearCounts[r.issue_year] || 0) + 1;
       if (results.length >= 200) break;
@@ -378,14 +250,12 @@
   // ── Render ─────────────────────────────────────────────────────────────────
   function csRenderResults(results, query, yearCounts) {
     document.getElementById('cs-status').style.display = 'none';
-    var area = document.getElementById('cs-results-area');
-    area.style.display = '';
+    document.getElementById('cs-results-area').style.display = '';
 
-    var countEl = document.getElementById('cs-result-count');
     var label = results.length === 1 ? '1 result' : results.length + ' results';
     var forStr = query ? ' for <strong>' + csEsc(query) + '</strong>' : '';
     var limitStr = results.length === 200 ? ' (showing first 200)' : '';
-    countEl.innerHTML = label + forStr + limitStr;
+    document.getElementById('cs-result-count').innerHTML = label + forStr + limitStr;
 
     var chartBox = document.getElementById('cs-chart-box');
     if (Object.keys(yearCounts).length) {
@@ -395,8 +265,8 @@
       chartBox.style.display = 'none';
     }
 
-    var noResults = document.getElementById('cs-no-results');
     var list = document.getElementById('cs-results-list');
+    var noResults = document.getElementById('cs-no-results');
 
     if (!results.length) {
       list.innerHTML = '';
@@ -433,19 +303,17 @@
 
   // ── Year chart ─────────────────────────────────────────────────────────────
   function csMakeChart(yearCounts, width, height) {
-    width = width || 680; height = height || 120;
+    width = width || 720; height = height || 120;
     var years = Object.keys(yearCounts).map(Number).sort(function(a,b){return a-b;});
     var counts = years.map(function(y){return yearCounts[y];});
     var maxC = Math.max.apply(null, counts) || 1;
     var n = years.length;
     var pL=5, pR=5, pT=8, pB=20;
-    var cW = width-pL-pR, cH = height-pT-pB;
+    var cW=width-pL-pR, cH=height-pT-pB;
     var bW = Math.max(1, cW/n - 1);
     var bars = years.map(function(yr, i) {
       var cnt = counts[i];
-      var x = pL + i*(cW/n);
-      var bH = cnt/maxC*cH;
-      var y = pT + cH - bH;
+      var x = pL + i*(cW/n), bH = cnt/maxC*cH, y = pT+cH-bH;
       return '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+bW.toFixed(1)+
         '" height="'+bH.toFixed(1)+'" fill="#8b5e3c" opacity="0.75">' +
         '<title>'+yr+': '+cnt+' hit'+(cnt!==1?'s':'')+'</title></rect>';
@@ -474,10 +342,7 @@
     if (csLbQuery && csDb) {
       try {
         var rows = csRows('SELECT words_json FROM boxes WHERE image_id = ?', [docId]);
-        if (rows.length) {
-          csLbBoxes = JSON.parse(rows[0].words_json);
-          csDrawHighlights();
-        }
+        if (rows.length) { csLbBoxes = JSON.parse(rows[0].words_json); csDrawHighlights(); }
       } catch(e) {}
     }
   }
@@ -503,10 +368,8 @@
       var wt = (w.text || '').toLowerCase();
       for (var i = 0; i < terms.length; i++) {
         if (wt.includes(terms[i])) {
-          ctx.fillRect(
-            w.x0 * canvas.width, w.y0 * canvas.height,
-            (w.x1-w.x0) * canvas.width, (w.y1-w.y0) * canvas.height
-          );
+          ctx.fillRect(w.x0*canvas.width, w.y0*canvas.height,
+            (w.x1-w.x0)*canvas.width, (w.y1-w.y0)*canvas.height);
           break;
         }
       }
@@ -516,16 +379,14 @@
   function csCloseLb() {
     document.getElementById('cs-lb').classList.remove('open');
     document.getElementById('cs-lb-img').src = '';
-    var ctx = document.getElementById('cs-lb-canvas').getContext('2d');
-    ctx.clearRect(0, 0, 1, 1);
+    document.getElementById('cs-lb-canvas').getContext('2d').clearRect(0,0,1,1);
     csLbBoxes = null;
   }
   document.addEventListener('keydown', function(e) { if (e.key==='Escape') csCloseLb(); });
 
   // ── Helpers ────────────────────────────────────────────────────────────────
   function csEsc(s) {
-    return String(s||'')
-      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;')
       .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
   function csEscJs(s) {
@@ -536,7 +397,6 @@
   window.addEventListener('DOMContentLoaded', async function() {
     try {
       await csInitDb();
-      csBuildFilters();
       csUpdateStats();
       document.getElementById('cs-status').style.display = 'none';
     } catch(e) {
