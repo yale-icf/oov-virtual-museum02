@@ -366,25 +366,18 @@
   function render() {
     const exhibitMode = isExhibitMode();
 
-    // Show/hide sort bar
-    const resultsBar = document.querySelector('.coll-results-bar');
-    if (resultsBar) resultsBar.style.display = exhibitMode ? 'none' : '';
+    // Show/hide the search results section
+    const collMain = document.getElementById('coll-main');
+    if (collMain) collMain.style.display = exhibitMode ? 'none' : '';
 
-    // Show country section only in default (no search/filter) mode
+    // Show/hide the exhibits + country browse sections
+    const exhibitsSection = document.getElementById('coll-exhibits-section');
+    if (exhibitsSection) exhibitsSection.style.display = exhibitMode ? '' : 'none';
+
     const countrySection = document.getElementById('coll-country-section');
     if (countrySection) countrySection.style.display = exhibitMode ? '' : 'none';
 
-    const grid = document.getElementById('coll-grid');
-
-    if (exhibitMode) {
-      grid.classList.remove('coll-grid--exhibit');
-      const featured = FEATURED_IDS
-        .map(id => allItems.find(item => item.id === id))
-        .filter(Boolean);
-      renderGrid(featured, featured.length);
-      document.getElementById('coll-pagination').innerHTML = '';
-    } else {
-      grid.classList.remove('coll-grid--exhibit');
+    if (!exhibitMode) {
       const filtered = getFilteredItems();
       const sorted = sortItems(filtered);
       const total = sorted.length;
