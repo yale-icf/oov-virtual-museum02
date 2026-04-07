@@ -9,6 +9,7 @@
   let activeFilters = { period: [], issuingCountry: [], type: [], language: [] };
   let searchQuery = '';
   let observer = null;
+  let openDropdown = null;
 
   // DOM refs
   const galleryGrid = document.getElementById('gallery-grid');
@@ -35,41 +36,82 @@
     }
 
     loading.style.display = 'none';
-    buildFilterSidebar();
+    buildGalleryDropdowns();
     restoreStateFromURL();
     setupEventListeners();
     setupLazyLoading();
     applyFilters();
   }
 
-  // ===== Filter Sidebar =====
-  function buildFilterSidebar() {
-    const filterFields = [
-      { key: 'period', el: document.getElementById('filter-period') },
-      { key: 'issuingCountry', el: document.getElementById('filter-issuingCountry') },
-      { key: 'type', el: document.getElementById('filter-type') },
-      { key: 'language', el: document.getElementById('filter-language') }
-    ];
-
-    for (const { key, el } of filterFields) {
+  // ===== Build dropdown filter panels =====
+  function buildGalleryDropdowns() {
+    const fields = ['period', 'issuingCountry', 'type', 'language'];
+    for (const key of fields) {
+      const panel = document.getElementById('dropdown-' + key);
       const facets = filterIndex[key] || [];
-      el.innerHTML = '';
-      for (const facet of facets) {
-        const label = document.createElement('label');
-        label.className = 'filter-option';
-        label.innerHTML =
-          '<input type="checkbox" data-field="' + key + '" value="' + escapeAttr(facet.value) + '">' +
-          '<span class="label-text">' + escapeHtml(facet.value) + '</span>' +
-          '<span class="count">' + facet.count + '</span>';
-        el.appendChild(label);
-      }
+      panel.innerHTML = facets.map(f =>
+        '<label class="coll-dd-option">' +
+          '<input type="checkbox" data-field="' + key + '" value="' + escapeAttr(f.value) + '">' +
+          '<span class="coll-dd-label">' + escapeHtml(f.value) + '</span>' +
+          '<span class="coll-dd-count">' + f.count + '</span>' +
+        '</label>'
+      ).join('');
+
+      panel.querySelectorAll('input').forEach(function (cb) {
+        cb.addEventListener('change', function () {
+          var val = cb.value;
+          if (cb.checked) {
+            if (activeFilters[key].indexOf(val) === -1) activeFilters[key].push(val);
+          } else {
+            activeFilters[key] = activeFilters[key].filter(function (v) { return v !== val; });
+          }
+          currentPage = 1;
+          applyFilters();
+          updateURL();
+        });
+      });
     }
   }
 
   // ===== Events =====
   function setupEventListeners() {
+    // Filter button toggles
+    document.querySelectorAll('#gallery-filter-bar .coll-filter-btn').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var key = btn.dataset.filter;
+        var panel = document.getElementById('dropdown-' + key);
+
+        if (openDropdown && openDropdown !== panel) {
+          openDropdown.classList.remove('open');
+          document.querySelectorAll('#gallery-filter-bar .coll-filter-btn').forEach(function (b) {
+            b.classList.remove('active');
+          });
+        }
+
+        var isOpen = panel.classList.toggle('open');
+        btn.classList.toggle('active', isOpen);
+        openDropdown = isOpen ? panel : null;
+      });
+    });
+
+    // Close dropdown on outside click
+    document.addEventListener('click', function () {
+      if (openDropdown) {
+        openDropdown.classList.remove('open');
+        document.querySelectorAll('#gallery-filter-bar .coll-filter-btn').forEach(function (b) {
+          b.classList.remove('active');
+        });
+        openDropdown = null;
+      }
+    });
+
+    document.getElementById('gallery-filter-bar').addEventListener('click', function (e) {
+      e.stopPropagation();
+    });
+
     // Search
-    let debounceTimer;
+    var debounceTimer;
     searchInput.addEventListener('input', function () {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(function () {
@@ -78,24 +120,6 @@
         applyFilters();
         updateURL();
       }, 200);
-    });
-
-    // Filter checkboxes
-    document.getElementById('sidebar').addEventListener('change', function (e) {
-      if (e.target.type === 'checkbox') {
-        const field = e.target.dataset.field;
-        const value = e.target.value;
-        if (e.target.checked) {
-          if (!activeFilters[field].includes(value)) {
-            activeFilters[field].push(value);
-          }
-        } else {
-          activeFilters[field] = activeFilters[field].filter(function (v) { return v !== value; });
-        }
-        currentPage = 1;
-        applyFilters();
-        updateURL();
-      }
     });
 
     // Clear filters
@@ -108,20 +132,10 @@
       applyFilters();
       updateURL();
     });
-
-    // Mobile: collapse filter sections
-    if (window.innerWidth <= 768) {
-      document.querySelectorAll('.filter-section h3').forEach(function (h3) {
-        h3.parentElement.classList.add('collapsed');
-        h3.addEventListener('click', function () {
-          h3.parentElement.classList.toggle('collapsed');
-        });
-      });
-    }
   }
 
   function uncheckAll() {
-    document.querySelectorAll('.sidebar input[type="checkbox"]').forEach(function (cb) {
+    document.querySelectorAll('.coll-dropdown input[type="checkbox"]').forEach(function (cb) {
       cb.checked = false;
     });
   }
@@ -131,7 +145,7 @@
     filteredItems = allItems.filter(function (item) {
       // Text search
       if (searchQuery) {
-        const haystack = (
+        var haystack = (
           item.title + ' ' + item.description + ' ' +
           (item.keywords || []).join(' ') + ' ' +
           (item.namedIndividuals || []).join(' ') + ' ' +
@@ -166,20 +180,27 @@
   function renderActiveFilters() {
     activeFiltersContainer.innerHTML = '';
     var hasAny = false;
+    var chipsRow = document.getElementById('gallery-chips-row');
 
     for (var field in activeFilters) {
       var selected = activeFilters[field];
       for (var i = 0; i < selected.length; i++) {
         hasAny = true;
-        var chip = document.createElement('span');
-        chip.className = 'active-filter-chip';
+        var chip = document.createElement('button');
+        chip.className = 'coll-chip';
         chip.dataset.field = field;
         chip.dataset.value = selected[i];
-        chip.innerHTML = escapeHtml(selected[i]) + ' <span class="remove">&times;</span>';
+        chip.innerHTML =
+          escapeHtml(selected[i]) +
+          '<svg class="coll-chip-x" viewBox="0 0 12 12" fill="none" aria-hidden="true">' +
+            '<path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>' +
+          '</svg>';
         chip.addEventListener('click', removeFilterChip);
         activeFiltersContainer.appendChild(chip);
       }
     }
+
+    if (chipsRow) chipsRow.style.display = hasAny ? 'flex' : 'none';
   }
 
   function removeFilterChip(e) {
@@ -188,7 +209,6 @@
     var value = chip.dataset.value;
     activeFilters[field] = activeFilters[field].filter(function (v) { return v !== value; });
 
-    // Uncheck the checkbox
     var cb = document.querySelector('input[data-field="' + field + '"][value="' + CSS.escape(value) + '"]');
     if (cb) cb.checked = false;
 
@@ -212,11 +232,9 @@
     var pageItems = filteredItems.slice(start, end);
 
     for (var i = 0; i < pageItems.length; i++) {
-      var item = pageItems[i];
-      galleryGrid.appendChild(createCard(item));
+      galleryGrid.appendChild(createCard(pageItems[i]));
     }
 
-    // Re-observe for lazy loading
     if (observer) {
       galleryGrid.querySelectorAll('img[data-src]').forEach(function (img) {
         observer.observe(img);
@@ -257,7 +275,6 @@
     var tags = document.createElement('div');
     tags.className = 'card-tags';
 
-    // Type tags
     if (item.type) {
       for (var t = 0; t < item.type.length && t < 2; t++) {
         var tag = document.createElement('span');
@@ -267,7 +284,6 @@
       }
     }
 
-    // Period tag
     if (item.period && item.period.length > 0) {
       var ptag = document.createElement('span');
       ptag.className = 'tag period-tag';
@@ -290,13 +306,12 @@
             img.src = img.dataset.src;
             img.removeAttribute('data-src');
             img.addEventListener('load', function () { img.classList.add('loaded'); });
-            img.addEventListener('error', function () { img.classList.add('loaded'); img.alt = 'Image not available'; });
+            img.addEventListener('error', function () { img.classList.add('loaded'); });
             observer.unobserve(img);
           }
         });
       }, { rootMargin: '200px' });
     } else {
-      // Fallback: load all immediately
       observer = {
         observe: function (img) {
           img.src = img.dataset.src;
@@ -313,14 +328,12 @@
     var totalPages = Math.ceil(filteredItems.length / PER_PAGE);
     if (totalPages <= 1) return;
 
-    // Prev
     var prev = document.createElement('button');
     prev.textContent = '\u2190 Prev';
     prev.disabled = currentPage === 1;
     prev.addEventListener('click', function () { goToPage(currentPage - 1); });
     pagination.appendChild(prev);
 
-    // Page buttons
     var pages = getPageRange(currentPage, totalPages);
     for (var i = 0; i < pages.length; i++) {
       if (pages[i] === '...') {
@@ -339,7 +352,6 @@
       }
     }
 
-    // Next
     var next = document.createElement('button');
     next.textContent = 'Next \u2192';
     next.disabled = currentPage === totalPages;
@@ -373,7 +385,8 @@
 
   // ===== Result Count =====
   function updateResultCount() {
-    resultCount.textContent = '';
+    var total = filteredItems.length;
+    resultCount.textContent = total.toLocaleString() + ' document' + (total !== 1 ? 's' : '');
   }
 
   // ===== URL State =====
@@ -387,8 +400,7 @@
       }
     }
     var qs = params.toString();
-    var url = window.location.pathname + (qs ? '?' + qs : '');
-    history.replaceState(null, '', url);
+    history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : ''));
   }
 
   function restoreStateFromURL() {
@@ -408,7 +420,6 @@
       var field = fields[i];
       if (params.has(field)) {
         activeFilters[field] = params.get(field).split('|').filter(Boolean);
-        // Check the corresponding checkboxes
         for (var j = 0; j < activeFilters[field].length; j++) {
           var cb = document.querySelector('input[data-field="' + field + '"][value="' + CSS.escape(activeFilters[field][j]) + '"]');
           if (cb) cb.checked = true;
