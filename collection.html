@@ -83,8 +83,8 @@
     <button class="coll-clear-btn" id="coll-clear-btn">Clear all</button>
   </div>
 
-  <!-- Results -->
-  <main class="coll-main" id="coll-main">
+  <!-- Results (shown only when search/filters are active) -->
+  <main class="coll-main" id="coll-main" style="display:none">
     <div class="coll-results-bar">
       <p class="coll-tagline" id="coll-tagline">&nbsp;</p>
       <select class="coll-sort" id="coll-sort" aria-label="Sort results">
@@ -95,12 +95,63 @@
       </select>
     </div>
 
-    <div class="coll-grid" id="coll-grid">
-      <div class="loading"><div class="spinner"></div></div>
-    </div>
+    <div class="coll-grid" id="coll-grid"></div>
 
     <div class="coll-pagination" id="coll-pagination"></div>
   </main>
+
+  <!-- Exhibits section (shown in default/browse mode) -->
+  <section class="coll-exhibits-section" id="coll-exhibits-section">
+    <div class="coll-exhibits-inner">
+      <h2 class="coll-exhibits-heading">Explore Our Exhibits</h2>
+      <p class="coll-exhibits-sub">Curated stories from the collection &mdash; a great place to start</p>
+      <div class="coll-exhibits-grid">
+
+        <a href="exhibit-women-investors.html" class="exhibit-card">
+          <div class="exhibit-card-images">
+            <img src="images/exhibits/goetzmann0491.jpg" alt="">
+            <img src="images/exhibits/goetzmann0655.jpg" alt="">
+            <img src="images/exhibits/goetzmann0473.jpg" alt="">
+          </div>
+          <div class="exhibit-card-body">
+            <span class="exhibit-card-label">Online Exhibit</span>
+            <h3 class="exhibit-card-title">Women as Investors</h3>
+            <p class="exhibit-card-desc">A hidden history of capital: nine documents that trace women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
+            <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
+          </div>
+        </a>
+
+        <a href="exhibit-financing-war.html" class="exhibit-card">
+          <div class="exhibit-card-images">
+            <img src="images/exhibits/goetzmann0226.jpg" alt="">
+            <img src="images/exhibits/goetzmann0677.jpg" alt="">
+            <img src="images/exhibits/goetzmann0383.jpg" alt="">
+          </div>
+          <div class="exhibit-card-body">
+            <span class="exhibit-card-label">Online Exhibit</span>
+            <h3 class="exhibit-card-title">Financing War</h3>
+            <p class="exhibit-card-desc">How governments borrowed to fight: six documents tracing war finance from the American Revolution to the Second World War &mdash; and the promises they kept and broke.</p>
+            <span class="exhibit-card-meta">6 items &middot; United States, Russia, Austria, Japan</span>
+          </div>
+        </a>
+
+        <a href="exhibit-stock-market.html" class="exhibit-card">
+          <div class="exhibit-card-images">
+            <img src="images/exhibits/goetzmann1021.jpg" alt="">
+            <img src="images/exhibits/goetzmann0499.jpg" alt="">
+            <img src="images/exhibits/goetzmann0507.jpg" alt="">
+          </div>
+          <div class="exhibit-card-body">
+            <span class="exhibit-card-label">Online Exhibit</span>
+            <h3 class="exhibit-card-title">The Birth of the Stock Market</h3>
+            <p class="exhibit-card-desc">The Dutch East India Company and the origins of equity finance in 17th-century Amsterdam &mdash; the world&rsquo;s first publicly traded company and the market it created.</p>
+            <span class="exhibit-card-meta">6 items &middot; Netherlands, Belgium, France</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
 
   <section class="country-section" id="coll-country-section" style="display:none">
     <h2 class="featured-heading">Explore by Country</h2>

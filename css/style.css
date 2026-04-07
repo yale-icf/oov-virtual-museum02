@@ -2130,3 +2130,50 @@ body.homepage {
     flex: 0 0 100%;
   }
 }
+
+/* ===== Collection Page: Exhibits Browse Section ===== */
+.coll-exhibits-section {
+  background: var(--parchment);
+  padding: 4rem 2rem;
+}
+
+.coll-exhibits-inner {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.coll-exhibits-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--navy);
+  text-align: center;
+  margin: 0 0 0.4rem;
+}
+
+.coll-exhibits-sub {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin: 0 0 2.5rem;
+}
+
+.coll-exhibits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .coll-exhibits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .coll-exhibits-section {
+    padding: 3rem 1.25rem;
+  }
+  .coll-exhibits-grid {
+    grid-template-columns: 1fr;
+  }
+}
