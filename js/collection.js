@@ -20,12 +20,6 @@
       period: '18th Century',
       location: 'Great Britain'
     },
-    {
-      id: 'goetzmann0300',
-      title: 'St. Petersburg Private Commercial Bank, 200 Ruble Share',
-      period: '20th Century',
-      location: 'Russia'
-    }
   ];
 
   const COUNTRIES = [
