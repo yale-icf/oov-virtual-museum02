@@ -1,0 +1,83 @@
+# Stock Certificate Transcription
+
+## Original (Spanish):
+
+**Header:**
+Nº 2980
+
+**Main Title:**
+COMPANIA ANONIMA
+
+**Subtitle:**
+MINAS DE GUANANDI
+
+**Capital Information:**
+CAPITAL 2000000
+PESOS ¾ ORO
+DIVIDIDOS EN 4000 ACCIONES
+PESOS
+500
+¾ ORO
+
+**Authorization Text:**
+AUTORIZADA POR DECRETO DE 19 DE OCTUBRE DE 1887 DEL SUPERIOR GOBIERNO DE LA REPUBLICA ORIENTAL DEL URUGUAY PARA EXPLOTAR CINCUENTA DATAS MINERALES EN EL MUNICIPIO DE POCONE PROVINCIA DE MATTO GROSSO (BRASIL) CONCEDIDAS POR EL DECRETO IMPERIAL Nº 9239 DEL 28 DE JUNIO DE 1884
+
+**Title of Action:**
+TITULO DE UNA ACCION
+
+**Descriptive Text:**
+[que] valor de quinientos pesos nacionales etc expedido a [name of shareholder] un amigo a los Estatutos de la Compañia
+
+**Location and Date:**
+MONTEVIDEO _____ de _____ de 1887
+
+**Signature Lines:**
+TESORERO        PRESIDENTE        SECRETARIO
+
+---
+
+## English Translation:
+
+**Header:**
+No. 2980
+
+**Main Title:**
+ANONYMOUS COMPANY
+
+**Subtitle:**
+GUANANDI MINES
+
+**Capital Information:**
+CAPITAL 2,000,000
+PESOS ¾ GOLD
+DIVIDED INTO 4,000 SHARES
+PESOS
+500
+¾ GOLD
+
+**Authorization Text:**
+AUTHORIZED BY DECREE OF OCTOBER 19, 1887 OF THE SUPERIOR GOVERNMENT OF THE ORIENTAL REPUBLIC OF URUGUAY TO EXPLOIT FIFTY MINERAL CONCESSIONS IN THE MUNICIPALITY OF POCONE, PROVINCE OF MATTO GROSSO (BRAZIL), GRANTED BY IMPERIAL DECREE No. 9239 OF JUNE 28, 1884
+
+**Title of Action:**
+TITLE OF ONE SHARE
+
+**Descriptive Text:**
+[which] value of five hundred national pesos etc issued to [name of shareholder] subject to the Statutes of the Company
+
+**Location and Date:**
+MONTEVIDEO _____ of _____ of 1887
+
+**Signature Lines:**
+TREASURER        PRESIDENT        SECRETARY
+
+---
+
+## Notable Markings:
+
+- **Serial Number:** Nº 2980 (top center and in margins)
+- **Red Wax Seal/Stamp:** Located on left side (appears to be official certification mark)
+- **Purple Stamp:** Circular stamp visible on lower left portion
+- **Signatures:** Three signature lines at bottom (Tesorero/Treasurer, Presidente/President, Secretario/Secretary) - signatures appear to be handwritten but partially illegible
+- **Handwritten Entries:** Cursive handwriting in the title section and date fields, largely [illegible]
+- **Decorative Elements:** Ornamental borders with floral/geometric patterns throughout the certificate
+- **Central Vignette:** Circular emblem with mining/industrial imagery (crossed pickaxes and other mining tools)

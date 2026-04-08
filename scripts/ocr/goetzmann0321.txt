@@ -1,0 +1,51 @@
+# Chinese Rent Receipt Transcription
+
+## Original (Classical Chinese):
+
+**Header (top of box):**
+票租收
+
+**Main text (reading right to left, top to bottom in columns):**
+
+光緒三十二年十月初二日
+
+周宅為給與農莊執掌本收到
+
+秋租錢壹千文年
+
+足錢現租該戶準于十月將租錢貼文
+
+清不準秋帶欠如是日租錢不到
+
+撤出另租此照舊租錢不到
+
+將地攤出另租
+
+寶善堂管字第
+
+[Several red stamps/seals visible]
+
+## English Translation:
+
+**Header:**
+Rent Receipt (票)
+
+**Main text (logical reading order):**
+
+In the thirty-second year of the Guangxu period [1906], the tenth lunar month, second day:
+
+The Zhou household, acting as steward of the farmland, has received herewith the autumn rent payment of one thousand cash.
+
+If the full rent is paid by the tenth month, the rent payment will be recorded as agreed. If the rent is not paid by the deadline in accordance with the terms and if there are outstanding debts, this arrangement shall be voided and the land shall be re-leased to another tenant.
+
+If the rent payment is not received, the land shall be taken back and leased to another party.
+
+Bao Shan Hall
+[Management record number]
+
+## Notable Markings:
+
+- **Red stamps/seals:** Multiple red seals and stamps throughout the document, indicating official verification and ownership marks
+- **Title seal/stamp:** Upper left corner contains an official rectangular seal
+- **Handwritten annotations:** Various red ink markings and corrections visible throughout
+- **Institutional mark:** "寶善堂" (Bao Shan Hall) appears as the issuing entity

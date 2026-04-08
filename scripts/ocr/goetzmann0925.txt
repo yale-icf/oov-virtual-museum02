@@ -1,0 +1,51 @@
+# Document Transcription
+
+**Original (Japanese):**
+
+Left section (vertical text, right to left):
+- 明治三十六年 (Meiji 36th year)
+- 四月 (4th month)
+- 二十五日 (25th day)
+- 株券 (Share Certificate)
+- 国分石油組合 (Kokubun Petroleum Association)
+- [Seal with characters]
+- 請求受人氏名印 (Authorized recipient's name and seal)
+- 請川忠右衛門 [signature/name with seal]
+- 諸理印章 (Management seal)
+
+Right section (table with headers):
+Column headers (top row, left to right):
+- 第五回 (5th installment)
+- 第四回 (4th installment)
+- 第三回 (3rd installment)
+- 第二回 (2nd installment)
+- 第一回 (1st installment)
+- 據四数 (Total shares)
+
+Row entries:
+- 金伍圓也 (50 Yen)
+- 金伍圓也 (50 Yen)
+- 金伍圓也 (50 Yen)
+- 金拾圓也 (10 Yen)
+- [blank]
+- 額 (Amount)
+
+Date entries (bottom rows):
+- 明治三十六月五日 (Meiji 36, month 5, day [unclear])
+- 明治三十六月五日 (repeated)
+- 明治三十六月五日 (repeated)
+- 明治三十六月五日 (repeated)
+- 年月日 (Year/Month/Day)
+
+- 受領証印 (Receipt seal)
+
+**English translation:**
+
+The document is dated April 25, 1903 (Meiji 36) and represents a share certificate for the Kokubun Petroleum Association. The right table shows 10 shares with installment payment records, with amounts of 50 Yen for most installments.
+
+**Notable markings:**
+- Red seal/stamp (upper right of left section)
+- Multiple red circular seals/stamps in the table (bottom row)
+- Handwritten signature: 請川忠右衛門
+- Reference number visible: 738 and "1903" in upper right corner
+- Handwritten notation at top right: "National Prosperity Petroleum"

@@ -1,0 +1,41 @@
+# Document Transcription
+
+**Original (Bulgarian and French):**
+
+The document consists of a repeating sheet of 24 bond coupons arranged in a 6x4 grid. Each coupon contains the following text in both Bulgarian (Cyrillic) and French:
+
+---
+
+**ROYAUME DE BULGARIE**
+**ЦАРСТВО БЪЛГАРИЯ**
+
+**Emprunt Bulgarie 5% de 1904**
+**Българския 5% Държавния заём от 1904г.**
+
+**Coupon No. 079150 Obligation**
+**Купон № 079150 Облигация**
+
+Oba. №079150
+
+[Each coupon is numbered sequentially from 92 to 115]
+
+**Coupon particulier**
+**Купон особенный**
+
+[Text indicating this is a particular coupon]
+
+**Se présenter au Timbre, ou à la Banque de Paris et des Pays-Bas**
+**Се представя на Марка, или в Банката на Париж и на Нидерландите**
+
+---
+
+**Notable markings:**
+
+- Serial number: **No. 079150** (printed throughout)
+- Coupon numbers: **92-115** (sequential numbering on each individual coupon)
+- Bond denomination: **500 Francs** (referenced in header context)
+- Institution: **Banque de Paris et des Pays-Bas** (payment agent)
+- Date references: **1904**
+- Interest rate: **5%** (referenced as "5% de 1904")
+- Bilingual format: Bulgarian (Cyrillic script) and French
+- Coupon sheet format with perforated divisions between individual coupons

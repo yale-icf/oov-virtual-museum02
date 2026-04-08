@@ -1,0 +1,80 @@
+# 5% Internal State Loan of 1941 for National Defense - Kingdom of Bulgaria
+
+## Original (Bulgarian Cyrillic):
+
+**Header:**
+ЦАРСТВО БЪЛГАРИЯ
+ГЛАВНА ДИРЕКЦИЯ НА ДЪРЖАВНИТЕ И НА ГАРАНТИРАНИТЕ ОД ДЪРЖАВАТА ДЪЛГОВЕ
+
+**Main Title:**
+5%/ ВЪТРЕШЕНЗ ДЪРЖАВЕНЗ ЗАЕМ ОТЗ 1941 г.
+ЗА НАРОДНАТА ОТБРАНА
+
+[Descriptive paragraph about the loan basis in fine print]
+
+**Denomination Panel:**
+ЗАЕМИГАЦИЯ
+ОТЪ ПЕТЪ ХИЛАДИ ЛЕВА
+
+5000 [ЛЕВА] 5000
+5%
+Серия Б
+№ 022882
+НА ПРИНОСИТЕЛЯ
+
+**Terms and Conditions Section:**
+[Extended text describing loan conditions, payment terms, and administrative details]
+
+Събрано 13 септември 1941 година.
+
+ГЛАВЕНА ДИРЕКТОРА НА ДЪРЖАВНИТЕ ДЪЛГОВЕ: [signature]
+МИНИСТЕРСТВА НА ФИНАНСИТ: [signature]
+
+ЗА КОНТРОЛЪ: [signature]
+
+---
+
+## English Translation:
+
+**Header:**
+KINGDOM OF BULGARIA
+MAIN DIRECTORATE OF STATE AND STATE-GUARANTEED DEBTS
+
+**Main Title:**
+5% INTERNAL STATE LOAN OF 1941
+FOR NATIONAL DEFENSE
+
+[The loan is based on the Law of 5% Internal State Loan dated May 24, 1941, for public defense purposes. Various terms regarding repayment schedules, interest calculations, and conditions are outlined.]
+
+**Denomination Panel:**
+BOND
+OF FIVE THOUSAND LEVA
+
+5000 [LEVA] 5000
+5% [Interest Rate]
+Series B
+No. 022882
+TO BEARER
+
+**Terms and Conditions:**
+[Details regarding denomination ranges (1,000 to 100,000 leva), interest payment dates (June 15 and December 15 of each year from 1942 onwards), redemption schedules, and administrative procedures for bond holders and the Bulgarian National Bank.]
+
+Compiled September 13, 1941.
+
+MAIN DIRECTOR OF STATE DEBTS: [signature]
+MINISTRY OF FINANCE: [signature]
+
+FOR CONTROL: [signature]
+
+---
+
+## Notable Markings:
+
+- **Serial Number:** № 022882
+- **Series:** Б (B)
+- **Three official signatures** at bottom (Director of State Debts, Ministry of Finance official, and Control officer)
+- **Ornate decorative border** with floral medallions in corners and geometric patterns along edges
+- **Cream and brown color scheme** with pink circular watermark elements
+- **Date issued:** September 13, 1941
+- **Denomination clearly displayed:** 5,000 leva at 5% interest
+- **"На Приносителя" (To Bearer)** - indicating this is a bearer bond

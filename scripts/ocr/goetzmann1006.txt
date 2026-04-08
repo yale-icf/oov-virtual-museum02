@@ -1,0 +1,65 @@
+# Stock Certificate Transcription
+
+## Original (Chinese):
+
+**Header:**
+上海浦东强生出租汽车股份有限公司
+SHANGHAI PU DONG QIANG SHENG TAXI CO., LTD.
+
+**Main Text:**
+股票
+
+中国人民银行上海市分行（92）人金股字第（1）号文批準發行
+
+股份總額：壹佰拾陸股
+每股金額：計人民幣壹佰元整
+總計金額：壹仟拾佰万元整
+
+**Central text (on certificate):**
+股東
+
+本股票拾股计人民市壹佰元整
+
+**Signatures and markings:**
+法人代表：[signature]
+[Red official seal/chop]
+
+發行日期：一九九二年二月十二日
+
+證號：XII 0068056
+
+---
+
+## English Translation:
+
+**Header:**
+Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd.
+
+**Main Text:**
+Stock Certificate
+
+Authorized and issued by the People's Bank of China Shanghai Branch (Document No. 92, Personnel Fund Stocks Character No. 1)
+
+Total Share Capital: 176 shares
+Par Value per Share: 100 RMB (Chinese Yuan)
+Total Capitalization: 17,600 RMB
+
+**Central text:**
+Shareholder
+
+This stock certificate represents 10 shares valued at 100 RMB
+
+**Issue date:** February 12, 1992
+
+Certificate Number: XII 0068056
+
+---
+
+## Notable Markings:
+
+- **Red official seal/chop** (印章) in center-left area
+- **Signature** of legal representative (法人代表) in lower left
+- **Serial number:** XII 0068056 (in red, lower right)
+- **Decorative border** in green with traditional Chinese patterns
+- **Vignette illustration** of buses/taxis in the center
+- **Denomination:** "100" (壹佰) displayed in green corners (top-left and bottom-right)

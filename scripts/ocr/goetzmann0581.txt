@@ -1,0 +1,50 @@
+# Document Transcription
+
+## Original Text (Bulgarian/French/German/English):
+
+**УСЛОВИЯ НА ЗАЕМА** (Bulgarian - Conditions of the Loan)
+
+[Long paragraph of Bulgarian text describing loan conditions, terms, and obligations]
+
+**CONDITIONS DE L'EMPRUNT** (French)
+
+[Extended French text outlining loan terms, including details about obligations, payment schedules, and conditions]
+
+**BEDINGUNGEN DER ANLEIHE** (German)
+
+[German language conditions of the loan with similar content regarding terms and obligations]
+
+**CONDITIONS OF THIS LOAN** (English)
+
+The Bonds of this Loan bear interest at the rate per a (5%)
+
+[English text describing loan conditions, interest rates, payment schedules, and security details regarding stamp duty proceeds, tobacco wrapper duties, and other revenues]
+
+---
+
+## Amortization Tables:
+
+**ТАБЛИЦА ЗА ПОГАШЕНИЕ — TABLEAU D'AMORTISSEMENT — TILGUNDS-PLAN — TABLE OF AMORTISATION**
+
+Three parallel amortization tables showing:
+- DATE НА ПЛАЩАНЕТО / DATE DE PAIEMENT / DATUM DES ZAHLUNGSGE / DATES OF PAYMENT
+- ОБЛИГАЦІЙОН / OBLIGATIONED / AMORTISIERT / AMORTISED
+- ЛИХВИ / INTÉRÊT / INTÉRÊT / INTEREST
+
+Tables span from 1886 through 1904 with corresponding values in Francs, showing:
+- Principal amounts
+- Interest payments
+- Running totals
+
+Final rows show totals: 22,375 (first table), 79,299 (second table), and 200,000 (third table)
+
+---
+
+## Notable Markings:
+
+- Decorative border frame around entire page
+- Multiple language headers (Bulgarian, French, German, English)
+- Serial number visible: **079,150**
+- Document appears to be **Page 2 of 4**
+- Age-related discoloration and wear visible
+- Ornamental decorative elements at section breaks

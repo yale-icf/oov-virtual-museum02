@@ -1,0 +1,34 @@
+# Document Transcription
+
+**Original (Japanese - Classical/Formal Script):**
+
+Left page (Table header):
+明治 (Meiji)
+月 (Month)
+日 (Day)
+年 (Year)
+[Multiple columns with identical headers repeating 11 times]
+
+Right page (Main text):
+一千八百九十年四月三十日
+
+為合此/出名此受株金ヨリ生ズル剰余金ノ配當ニ際シ此株式ノ受渡ニ付受託人ノ調印ヲ要スルコト並ニ此受株式ノ記名人変更ニ際シテハ受渡人及ビ受託人ノ調印ヲ附典スレ
+
+[Followed by extensive handwritten classical Japanese text in vertical columns describing terms and conditions of the share certificate]
+
+**English translation:**
+
+The right page contains detailed stipulations regarding:
+- Share certificate conditions for the Nobino Seigai Partnership
+- Requirements for share transfers and trustee endorsements (signatures)
+- Procedures for dividend distributions from surplus funds
+- Regulations for changes to registered shareholders
+- Various legal conditions and requirements for the validity of the shares
+
+The header indicates: "Year 1, Meiji 33 (1890), April 30th"
+
+**Notable markings:**
+- Reference number "630" (circled) in upper left corner
+- Date notation "1890" in upper right
+- Decorative border frame with corner flourishes
+- Print information at bottom (partially visible)

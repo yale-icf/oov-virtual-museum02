@@ -1,0 +1,66 @@
+# Pekin Syndicate Limited - Bearer Certificate Transcription
+
+## Main Certificate Text
+
+**Header:**
+PEKIN SYNDICATE LIMITED
+(INCORPORATED UNDER THE)
+[Chinese characters: 福]
+
+**Capital Section:**
+CAPITAL £500,000
+500,000 KANCHE SHARES OF £1 EACH.
+399,000 ORDINARY SHARES OF £1 EACH ARE 2,000 DEFERRED SHARES OF £1 EACH.
+
+**Title and Bearer Information:**
+SHARES WARRANT TO BEARER
+No [number not clearly visible]
+TITLE AND FOREIGN ACTIONS - 5 SHARES
+
+**Certificate Body:**
+"This is to Certify that the Bearer of this Warrant is entitled to
+FIVE
+Fully Paid Shares of One Pound each (numbered under the PEKIN SYNDICATE LIMITED, registered as Ordinary Shares) in conformance with the Memorandum and Articles of Association and subject to their provisions.
+
+GIVEN under the Common Seal of the Syndicate this
+20th day of NOVEMBER 1900"
+
+**Languages (Bilingual Format):**
+English text on left side / French text on right side reading:
+"Le Porteur du present Titre
+a droit a
+CINQ
+actions ordinaries Completes d'un Shilling chacune"
+
+**Signatures:**
+- Charles Price (Lieutenant Secretary)
+- [Additional signature for Directors]
+
+**Serial Numbers:**
+- Warrant N°: B35603
+- Numero du Titre: B35603
+
+---
+
+## Coupon Section (Bottom)
+
+Multiple numbered coupons arranged in a grid (numbered 1-31 visible), each reading:
+"PEKIN SYNDICATE LIMITED
+SHARE WARRANT TO BEARER
+[Coupon number]
+[Date warrant/coupon details]
+[Handwritten signatures and marks]
+B35603"
+
+---
+
+## Notable Markings:
+
+- **Official Seal:** Circular stamp with Chinese character "福" (Fu - prosperity/blessing) at top center
+- **Ornamental Border:** Decorative green guilloche pattern throughout
+- **Orange Revenue Stamp:** Visible in upper left corner
+- **Handwritten Annotations:** Various signatures and dates on coupons
+- **Printer's Marks:** Multiple numbered sections (31 numbered coupons visible)
+- **Condition:** Aged paper with visible wear and aging marks
+
+This is a **bearer share certificate** - historically significant as shares were transferable by physical possession of the document rather than registration in a ledger.

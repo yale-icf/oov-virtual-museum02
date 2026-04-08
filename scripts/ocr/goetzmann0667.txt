@@ -1,0 +1,84 @@
+# Imperial Russian Government Bond Talon - Transcription
+
+## Original Text (Russian and French):
+
+**Header (Russian):**
+ИМПЕРАТОРСКОЕ РОССИЙСКОЕ ПРАВИТЕЛЬСТВО.
+Талон к 3³/₁₀% конверсионной облигации в 150 рублей.
+
+**Header (French):**
+GOUVERNEMENT IMPÉRIAL DE RUSSIE.
+Talon de l'Obligation de conversion 3³/₁₀% de 150 rbls.=324 reichsmark=400 francs=15 £ 17 shilll.=192 flor. des Pays-Bas.
+
+---
+
+**Individual Coupon Sections (appearing on numbered coupons 38-48):**
+
+Each coupon follows this pattern:
+
+**Russian:**
+ИМПЕРАТОРСКОЕ РОССИЙСКОЕ ПРАВИТЕЛЬСТВО. [NUMBER]
+[NUMBER]-й купон к 3³/₁₀% конверсионной облигац. №097530
+2/15 [Month] 19[XX] года уплачивается по Конторсис в
+отделениях Государственного Банка 2 руб. 85 коп.
+
+**French:**
+GOUVERNEMENT IMPÉRIAL DE RUSSIE.
+Coupon de l'Obligation de conversion 3³/₁₀%, payable
+2/15 [Janvier/Juillet] 19[XX], à raison de 6 mark 15½ pl.=7 fr. 60 c.=
+6 shilll.=3 fl. 64½ c. ou quittances désignées sur cette obligation.
+
+Valable pendant dix ans.
+[Directeur signature]
+
+---
+
+**Specific Coupon Numbers and Dates (visible):**
+
+- **Coupon 38**: 2/15 Janvier 1917
+- **Coupon 39**: 2/15 Juillet 1917
+- **Coupon 40**: 2/15 Janvier 1918
+- **Coupon 41**: 2/15 Juillet 1918
+- **Coupon 42**: 2/15 Janvier 1919
+- **Coupon 43**: 2/15 Janvier 1920
+- **Coupon 44**: 2/15 Janvier 1920
+- **Coupon 45**: 2/15 Janvier 1920
+- **Coupon 46**: 2/15 Janvier 1921
+- **Coupon 47**: 2/15 Juillet 1921
+- **Coupon 48**: 2/15 Janvier 1922
+
+---
+
+## English Translation:
+
+**Header:**
+IMPERIAL RUSSIAN GOVERNMENT.
+Talon for 3.75% Conversion Bond of 150 Rubles.
+
+---
+
+**Individual Coupon Pattern:**
+
+IMPERIAL RUSSIAN GOVERNMENT. [NUMBER]
+[NUMBER]-th coupon for 3.75% conversion bond No. 097530
+On [date] 19[XX] payable at offices in
+branches of the State Bank at 2 rubles 85 kopecks.
+
+IMPERIAL GOVERNMENT OF RUSSIA.
+Coupon of the 3.75% Conversion Bond, payable
+[date] 19[XX], at the rate of 6 marks 15½ pfennigs = 7 francs 60 centimes =
+6 shillings = 3 florins 64½ centimes, or receipts designated on this obligation.
+
+Valid for ten years.
+[Director's signature]
+
+---
+
+## Notable Markings:
+
+- **Serial Number**: №097530 (appears on all coupons)
+- **Denomination equivalents**: 324 reichsmarks = 400 francs = 15 pounds 17 shillings = 192 Dutch florins
+- **Signature**: Director's signature (appears as "Директор" in Cyrillic) on each coupon
+- **Bilingual format**: All text presented in both Russian (Cyrillic) and French
+- **Date range**: Coupons issued from 1917-1922, indicating post-revolutionary period
+- **Payment amounts**: 2 rubles 85 kopecks per coupon (Russian valuation) or equivalent in Western currencies

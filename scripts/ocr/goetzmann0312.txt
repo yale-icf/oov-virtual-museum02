@@ -1,0 +1,47 @@
+# Transcription of Central Trust Company Stock Certificate
+
+**Header Text:**
+Incorporated under the Laws of the State of Massachusetts
+
+SHARESSTOCK
+SHARES
+
+**Number Field:**
+NUMBER
+1636
+
+SHARES
+/1030
+
+**Company Name and Details:**
+Central Trust Company,
+CAMBRIDGE, MASS.
+
+CAPITAL STOCK $1,500,000.
+
+**Certificate Body Text:**
+This Certifies that Edgar R. Champlin is the owner of
+One Thousand and Thirty
+Shares of the Capital Stock of
+Central Trust Company,
+Transferable only on the books of the Corporation by the holder hereof in person or by Attorney upon surrender of this Certificate duly endorsed.
+
+In Witness Whereof, the said Corporation has caused this Certificate to be signed by duly authorized officers and to be sealed with the Seal of the Corporation this 21st day of July, A.D. 1929
+
+**Signature Lines:**
+[Signatures present but illegible]
+PRESIDENT                                                                    TREASURER
+
+**Bottom Text:**
+SHARES          $100.          EACH
+
+**Notable markings:**
+- Certificate Number: 1636
+- Share Count: 1,030 shares
+- Par Value: $100 per share
+- Date Issued: July 21, 1929
+- Shareholder Name: Edgar R. Champlin
+- Green wax seal (circular, embossed) on lower left
+- Ornate decorative border throughout
+- "SHARESSTOCK" printed in red text at top right
+- Vignette depicting industrial/maritime imagery in center top

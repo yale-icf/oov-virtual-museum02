@@ -1,0 +1,80 @@
+# Russian Internal 5% Prize Loan Bond - 1864
+
+## Original Text:
+
+**Header (decorative border):**
+ВЛАСТЬ СВЯТЕЙШАГО ПРАВИТЕЛЬСТВУЮЩАГО СѴНАТА ВЫИГРЫШНАГО ЗАЙМА
+
+**Upper medallions:**
+Серия 15871 | № СОРОК ПЯТЫЙ 45ⁿ
+
+**Main title:**
+БИЛЕТЪ
+ВНУТРЕННИЯГО 5% СЪ ВЫИГРЫШАМИ ЗАЙМА,
+разрѣшенное Высочайшимъ Указомъ отъ 19 Ноября 1864 г.
+
+НА НАПИТАЛЪ ВЪ СТО РУБЛЕЙ.
+ГОДОВОЙ ДОХОД ПЯТЬ РУБЛЕЙ.
+
+**German parallel text:**
+OBLIGATION DER RUSSISCHEN 5% INNEREN ANLEIHE
+MIT PRÄMIEN-VERLÖSUNGEN VON 1864.
+Šin Hundert Rubel.
+
+**Body text (Russian):**
+Издложение изъ Высочайшаго Указа, данного на имя Министра Финансовъ, 13 Ноября 1864 г.
+
+§ 1. Займъ выпускается по Государственному долгу под названием Внутреннего пятипроцентнаго займа съ выигрышами, и соответственно смыслу сумма снимается по Государственному Казначейству Государственнаго Банка.
+
+§ 2. Возложить на Государственное Казначейство отнести Государственному Банку сумму потребующую на платежи процентов, капитала и выигрышей по билетам сего займа.
+
+**Body text (German):**
+Ausszug aus dem Allerhoechsten Ukas an den Finanz-Minister von N.N. November 1864.
+
+§ 1. Diese Anleihe ist unter der Benennung: innere 5% Anleihe mit Prämienziehungen aus das Reichsstaatlich Darleehen, und die derselben untergelegene Summe von der Schuld des Reichsstaates in Schuld-schreiben auszuschreiben.
+
+§ 2. Die Habschaft hat beauftragt die Staatsbank die Summen zu verfolgen, welche in den jaehrilehen Zahlungen an Zinsen, Capital und Gewinnung der Obligationen dieser Anleihe erforderlich sind.
+
+**Signature section:**
+Управляющий Государственнымъ Банкомъ [signature]
+Министръ Финансовъ [signature]
+Казначей [signature]
+Инспекторъ [signature]
+
+**Date and serial information:**
+45 | 1587 | 1864
+
+## English Translation:
+
+**Header:**
+Authority of the Most Holy Governing Senate [on] the Prize Loan
+
+**Main Title:**
+BOND
+OF THE INTERNAL 5% PRIZE LOAN,
+Authorized by Imperial Decree of November 19, 1864
+
+FOR A CAPITAL OF ONE HUNDRED RUBLES.
+ANNUAL INCOME FIVE RUBLES.
+
+**Translated body text:**
+Extract from the Imperial Decree issued to the Minister of Finance on November 13, 1864
+
+§ 1. The loan is issued for state debt under the name of the Internal Five-Percent Loan with Prize Drawings, and in accordance with the sense thereof, the sum is withdrawn from the State Treasury of the State Bank.
+
+§ 2. Direct the State Treasury to remit to the State Bank the sum required for the payment of interest, capital, and prize winnings on bonds of this loan.
+
+---
+
+## Notable Markings:
+
+- **Serial Number:** Series 15871, No. 45
+- **Date:** 1864
+- **Value:** 100 Rubles
+- **Interest Rate:** 5% annually
+- **Multiple signatures** in script (likely officials of the State Bank and Ministry of Finance)
+- **Imperial coat of arms** centered in circular seal
+- **Decorative border** with repeating geometric patterns
+- **Denomination "100"** repeated in corners
+- **Bilingual format:** Russian (Cyrillic) and German text throughout
+- **Bearer bond:** Printed as transferable financial instrument
