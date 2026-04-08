@@ -2373,6 +2373,10 @@ body.homepage {
 .coll-browse-col-link:hover { color: var(--navy); }
 
 /* ── Compact exhibit card (left column) ── */
+.coll-exhibit-compact + .coll-exhibit-compact {
+  margin-top: 1.5rem;
+}
+
 .coll-exhibit-compact {
   display: flex;
   flex-direction: column;
