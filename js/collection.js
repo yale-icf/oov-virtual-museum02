@@ -116,7 +116,6 @@
           '<span class="exhibit-card-label">Source Publication</span>' +
           `<h3 class="pub-card-title">${escapeHtml(pub.shortTitle)}</h3>` +
           `<p class="pub-card-desc">${escapeHtml(pub.desc)}</p>` +
-          `<span class="exhibit-card-meta">${pub.count} item${pub.count !== 1 ? 's' : ''} &middot; ${escapeHtml(pub.year)}</span>` +
         '</div>';
       grid.appendChild(card);
     });
