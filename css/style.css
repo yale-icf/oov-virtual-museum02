@@ -2451,7 +2451,7 @@ body.homepage {
 }
 
 .coll-browse-right .featured-grid {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.75rem;
   max-width: none;
   margin: 0;
