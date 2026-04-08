@@ -2571,6 +2571,19 @@ body.homepage {
   }
 }
 
+/* ===== Highlights Page ===== */
+.highlights-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
 /* ===== Glossary Page ===== */
 .glossary-main {
   max-width: 780px;
