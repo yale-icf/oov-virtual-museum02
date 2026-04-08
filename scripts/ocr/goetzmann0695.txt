@@ -1,0 +1,51 @@
+# TRILINGUAL AMORTIZATION/REDEMPTION LOTTERY PLAN
+
+## Document Structure
+
+This is a five-column lottery draw table document with accompanying text panels, presented in three languages: French, German, and Serbian.
+
+---
+
+## COLUMN HEADERS (repeated across five sections)
+
+**Original (French/German/Serbian):**
+- TABLEAU D'AMORTISSEMENT / AMORTISEMENTS-PLAN / TILGUNGS-PLAN
+
+**English translation:**
+- AMORTIZATION TABLE / AMORTIZATION PLAN / REDEMPTION PLAN
+
+---
+
+## TABLE CONTENTS
+
+The document contains five columns of numerical data listing bond numbers designated for redemption in successive lottery draws. Each column contains multiple rows of numbers in the format:
+- 000/XXX/XXX (bond reference numbers)
+- Organized chronologically by draw dates
+- References to "Tirage No." (Draw Number) and corresponding dates
+
+[Due to the image quality and density of numerical data, individual bond numbers are difficult to read with complete accuracy. The tables appear to contain hundreds of entries organized in systematic columns.]
+
+---
+
+## LOWER TEXT PANELS
+
+**Left Panel (French):**
+Original text begins: "Bul Damicourt de 1873 lors dates hereto..."
+[The text is partially legible but heavily degraded. It contains conditions for the lottery drawing and appears to reference government authorization.]
+
+**Right Panel (German):**
+Original text begins: "Die Gesellschaft Amortisations-..." 
+[Similarly degraded, containing conditions and administrative details for the redemption lottery scheme.]
+
+---
+
+## NOTABLE MARKINGS
+
+- **Signatures:** Two handwritten signatures visible at bottom of document (dated and authorized)
+- **Layout:** Document is printed with five distinct columnar sections
+- **Language notation:** Clear trilingual formatting (French/German/Serbian) indicating international bond circulation
+- **Condition:** Document shows age-related deterioration; text clarity varies throughout
+
+---
+
+**Note:** The specific bond numbers and some textual portions are [illegible] due to scan quality and document age. The document appears to be an official government amortization schedule from the Kingdom of Serbia, late 19th century.

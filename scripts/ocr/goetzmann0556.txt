@@ -1,0 +1,56 @@
+# Stock Certificate Transcription
+
+## Original Text (Arabic and French):
+
+**Header (Arabic):**
+شركة سليم وسمعان صدناوي
+
+**Header (French):**
+SOCIÉTÉ SELIM ET SAMAAN SEDNAOUI
+SOCIÉTÉ ANONYME R.A.U.
+R.C. N°377 - LE CAIRE
+
+**Subheader (Arabic):**
+ماية سنة ١٩٠٩
+
+**Main Text (Arabic and French mixed):**
+رأس المال الشركة ٦٢٠٠٠٠ جنيه مصرى
+
+[Additional Arabic text describing shares and capital details]
+
+**Coupon sections (repeated 20 times in grid format - Arabic):**
+كوبون الفائدة والارباح لسنة
+
+[Each coupon contains similar text with varying numbers]
+
+---
+
+## English Translation:
+
+**Header:**
+Selim and Samaan Sednaoui Company
+
+SOCIÉTÉ SELIM ET SAMAAN SEDNAOUI
+ANONYMOUS COMPANY R.A.U.
+Registration Certificate No. 377 - CAIRO
+
+Year 1909
+
+**Main Text:**
+The Company's Capital: 620,000 Egyptian Pounds
+
+**Coupon sections:**
+Interest and Profits Coupon for the Year
+
+---
+
+## Notable Markings:
+
+- Official ornamental border with decorative Islamic geometric patterns (red/coral colored)
+- Circular seals in all four corners
+- Handwritten annotations and signatures in margins
+- Official stamp/seal impression (purple/blue colored) on upper right
+- Serial number references visible: "٢٥٠...251" to "٢٥٠...250"
+- Grid of 20 identical coupons at bottom (5 rows × 4 columns)
+- Document appears aged with visible creasing and wear
+- Handwritten notations in Arabic script on left margin

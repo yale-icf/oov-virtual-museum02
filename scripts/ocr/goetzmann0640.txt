@@ -1,0 +1,103 @@
+# Document Transcription
+
+## Original Text (Serbian/Cyrillic):
+
+**Left Panel - Coupon Sheet:**
+
+СОЦИЈАЛИСТИЧКА РЕПУБЛИКА СРБИЈА
+СЕРИЈА Ф
+КУПОН
+
+[10 coupons shown, numbered 1-10, each containing:]
+[Number] 0324809 [Number]
+ПЛАЋА СЕ ДОНОСИОЦУ [DATE]
+
+Coupon 9: ПЛАЋА СЕ ДОНОСИОЦУ 31. 12. 1998.
+Coupon 10: ПЛАЋА СЕ ДОНОСИОЦУ 30. 6. 1999.
+Coupon 7: ПЛАЋА СЕ ДОНОСИОЦУ 31. 12. 1997.
+Coupon 8: ПЛАЋА СЕ ДОНОСИОЦУ 30. 6. 1998.
+Coupon 5: ПЛАЋА СЕ ДОНОСИОЦУ 31. 12. 1996.
+Coupon 6: ПЛАЋА СЕ ДОНОСИОЦУ 30. 6. 1997.
+Coupon 3: ПЛАЋА СЕ ДОНОСИОЦУ 31. 12. 1995.
+Coupon 4: ПЛАЋА СЕ ДОНОСИОЦУ 30. 6. 1996.
+Coupon 1: ПЛАЋА СЕ ДОНОСИОЦУ 31. 12. 1994.
+Coupon 2: ПЛАЋА СЕ ДОНОСИОЦУ 30. 6. 1995.
+
+**Right Panel - Bond Certificate:**
+
+СОЦИЈАЛИСТИЧКА РЕПУБЛИКА СРБИЈА
+
+СЕРИЈА Ф                           БРОЈ 0324809
+
+ОБВЕЗНИЦА
+ЗА УПЛАЋЕНИ ИЗНОС ЗАЈМА ЗА ПРИВРЕДНИ РАЗВОЈ У СОЦИЈАЛИСТИЧКОЈ РЕПУБЛИЦИ СРБИЈИ
+
+100
+ДИНАРА
+
+ПЛАТИВА ДОНОСИОЦУ
+
+БЕОГРАД, ФЕБРУАР 1990. Г.    СОЦИЈАЛИСТИЧКА РЕПУБЛИКА СРБИЈА
+                              РЕПУБЛИЧКИ СЕКРЕТАРИЈАТ ЗА ФИНАНСИЈЕ
+                              
+                              Јован Јебић
+                              [Signature]
+
+---
+
+## English Translation:
+
+**Left Panel - Coupon Sheet:**
+
+SOCIALIST REPUBLIC OF SERBIA
+SERIES Φ
+COUPON
+
+[10 coupons shown, numbered 1-10, each containing:]
+[Number] 0324809 [Number]
+PAYABLE TO BEARER [DATE]
+
+Coupon 9: PAYABLE TO BEARER 31. 12. 1998.
+Coupon 10: PAYABLE TO BEARER 30. 6. 1999.
+Coupon 7: PAYABLE TO BEARER 31. 12. 1997.
+Coupon 8: PAYABLE TO BEARER 30. 6. 1998.
+Coupon 5: PAYABLE TO BEARER 31. 12. 1996.
+Coupon 6: PAYABLE TO BEARER 30. 6. 1997.
+Coupon 3: PAYABLE TO BEARER 31. 12. 1995.
+Coupon 4: PAYABLE TO BEARER 30. 6. 1996.
+Coupon 1: PAYABLE TO BEARER 31. 12. 1994.
+Coupon 2: PAYABLE TO BEARER 30. 6. 1995.
+
+**Right Panel - Bond Certificate:**
+
+SOCIALIST REPUBLIC OF SERBIA
+
+SERIES Φ                           NUMBER 0324809
+
+BOND
+FOR THE PAID AMOUNT OF A LOAN FOR ECONOMIC DEVELOPMENT IN THE SOCIALIST REPUBLIC OF SERBIA
+
+100
+DINARS
+
+PAYABLE TO BEARER
+
+BELGRADE, FEBRUARY 1990.    SOCIALIST REPUBLIC OF SERBIA
+                            REPUBLICAN SECRETARIAT FOR FINANCE
+                            
+                            Jovan Jebić
+                            [Signature]
+
+---
+
+## Notable Markings:
+
+- **Serial Number:** 0324809 (consistent across all coupons and main bond)
+- **Series Designation:** Φ (Phi)
+- **Denomination:** 100 Dinara
+- **Date of Issue:** February 1990, Belgrade
+- **Signature:** Jovan Jebić, Republican Secretariat for Finance
+- **National Emblem:** Socialist coat of arms (visible on bond certificate)
+- **Coupon Dates:** Semi-annual payments from June 30, 1995 through June 30, 1999
+- **Document Type:** Bearer Bond (Obveznica) - payable to whoever holds it
+- **Ornamental Borders:** Intricate decorative frames in mauve/purple throughout

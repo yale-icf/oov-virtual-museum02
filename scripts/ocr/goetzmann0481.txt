@@ -1,0 +1,101 @@
+# Russian Imperial Government Bond - 1894
+
+## Original (Russian):
+
+**Header:**
+ИМПЕРАТОРСКОЕ
+РОССИЙСКОЕ ПРАВИТЕЛЬСТВО
+
+РОССИЙСКИЙ ЧЕТЫРЁХПРОЦЕНТНЫЙ ЗОЛОТОЙ ЗАЁМ,
+ШЕСТОЙ ВЫПУСК 1894 ГОДА,
+
+НА СТО ТРИДЦАТЬ МИЛЛИОНОВ ШЕСТЬСОТ ТЫСЯЧ РУБЛЕЙ ЗОЛОТОМ
+=454,400,000 проц. 36,125,200 фунт. стерл. мирежда=17,971,520 фунт стерл.=217,203,200 млн. рублей,
+=3,472,000 долларов золотом.
+
+ВЫПУЩЕННЫЙ ПО ОФИЦИАЛЬНО УКАЗУ 9 ФЕВРАЛЯ 1894 ГОДА
+
+в количестве: 399975 листов по одной облигации (№ 125 р.) ех №000001 по №399975; 91420 листов по пяти облигаций (№ 625 р.) ех №1 по №18276; и 89,600 листов по двадцати пяти облигаций (№ 3125 р.) ех №857076 по №908800.
+
+для займов на возмездности, сие акции, издающихся ценн и удостоверствах плев Главного Общества Российских жел. дорог.
+
+**Bond Details:**
+
+A. ОБЛИГАЦИЯ 125 Руб. Зол.
+
+№059944
+
+ВЪ СТО ДВАДЦАТЬ ПЯТЬ РУБЛЕЙ ЗОЛОТОМ
+= 500 фр. = 404 марк. сп. 15 м. б. = 239 пудд. сбг.д. сп. 96зл. пудд. вда.
+
+АМОРТИЗАЦИЯ ОТ ГОСУДАРСТВЕННОГО ДАЛХОГО БАНКА. УЛ. [address details - unclear]
+
+НА ПРЕДЪЯВИТЕЛЯ.
+
+[Long paragraph of bond terms and conditions in Russian, containing details about dividend payments, redemption terms, and banking information]
+
+**Signatures and stamps section at bottom**
+
+ВЫСОЧАЙШИЙ УКАЗ ОТ 9 ФЕВРАЛЯ 1894 г. по проц Министерству ФИНАНСОВ.
+
+[Additional fine print text regarding government authorization]
+
+---
+
+## English Translation:
+
+**Title:**
+IMPERIAL
+RUSSIAN GOVERNMENT
+
+RUSSIAN FOUR PERCENT GOLD LOAN,
+SIXTH ISSUE OF 1894
+
+FOR ONE HUNDRED THIRTY MILLION SIX HUNDRED THOUSAND RUBLES IN GOLD
+[Details of total amount in various currencies]
+
+ISSUED BY IMPERIAL DECREE OF FEBRUARY 9, 1894
+
+In quantities of: 399,975 sheets of one bond (No. 125 r.); 91,420 sheets of five bonds (No. 625 r.); and 89,600 sheets of twenty-five bonds (No. 3,125 r.)
+
+For loans on repayment basis, these securities, issued in bonds and certificates by the Main Society of Russian Railways.
+
+**Bond Details:**
+
+A. BOND 125 Rubles Gold
+
+No. 059944
+
+ONE HUNDRED TWENTY-FIVE RUBLES IN GOLD
+[Currency equivalents]
+
+AMORTIZATION FROM THE STATE LOAN BANK
+
+TO BEARER
+
+[Terms of the bond, including details regarding:
+- Bearer rights to the full amount of 125 rubles in gold
+- Four percent annual interest payments
+- Quarterly dividend distribution at specified banks (St. Petersburg, London, Paris, Amsterdam, Hamburg)
+- Redemption procedures and schedule
+- Payment terms and conditions
+- Rights and responsibilities of bond holders]
+
+IMPERIAL DECREE OF FEBRUARY 9, 1894 FROM THE MINISTRY OF FINANCE
+
+[Authorization text for government bond issuance]
+
+---
+
+## Notable Markings:
+
+- Serial number: **№059944**
+- Denomination: **125 Rubles in Gold** (also noted as 500 Fr., 404 Marks)
+- Imperial double-headed eagle with crown in center
+- Ornamental border design typical of Russian Imperial bonds
+- Signature lines for authorized officials
+- Stamp/seal impressions (partially visible)
+- Printer mark: "239 Pl. Netherlandsh" (Netherlands printer mark)
+- Dating notation indicating 1894-1904 period
+- Multiple official seals and stamps throughout the document
+- Decorative corner emblems and security features

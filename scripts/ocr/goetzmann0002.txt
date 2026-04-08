@@ -1,0 +1,41 @@
+# Burmese Government Bond Transcription
+
+## Original Text (Burmese Script):
+
+**Top section:**
+မြန်မာ ပြည်ထောင်စု အစိုးရ 債券
+
+**Central circular vignette:**
+မြန်မာ ပြည်ထောင်စု အစိုးရ
+
+**Below central vignette:**
+၅% တစ်ဆူ-တစ်မြောက်-တစ်ခြား
+
+**Footer:**
+အောက်ပါ ရုပ်သိမ်းလုံးလုံး ၊ မူလရုံး ဆိုင်ရာ။
+
+---
+
+## English Translation:
+
+**Top section:**
+Myanmar Union Government Bond
+
+**Central circular vignette:**
+Myanmar Union Government
+
+**Below central vignette:**
+5% [Denomination designation - text partially unclear in standard transliteration]
+
+**Footer:**
+[Official redemption or validity notice regarding the bond parameters]
+
+---
+
+## Notable Markings:
+
+- **Serial Number:** 008358 (printed in red on both left and right sides)
+- **Decorative Elements:** Ornate green and purple borders with traditional Burmese floral and geometric motifs
+- **Circular Medallions:** Four corner medallions with "၅၀" (50) denominations in green
+- **Signature Line:** Present at bottom of document (text illegible in scan)
+- **Calendar Date:** Present in Burmese numerals at footer (suggests 1940s issuance)

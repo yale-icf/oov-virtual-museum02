@@ -1,0 +1,76 @@
+# Transcription of Republic of Peru 5% Gold Bonds of 1920
+
+## Document Overview
+This page shows a sheet of bond coupons arranged in a 4×14 grid format (56 coupons total), each representing interest payment vouchers.
+
+## Original Text (French):
+
+**Header on each coupon:**
+
+REPUBLIQUE DU PÉROU
+DE L'EMPRUNT 5 % OR
+DE 1920 POUR £720,620
+
+[Each coupon contains the following standard text:]
+
+Obligations Gouvernementales à 5 p.c. garanties par le Gouvernement de la République du Pérou, autorisées par Décret du 13 juillet 1920.
+
+Le Gouvernement de la République du Pérou paiera au porteur, le [DATE] à Londres, à Paris ou à Amsterdam, contre la présentation et remise de ce coupon, la somme de [AMOUNT] représentant l'intérêt semestriel à 5 p.c. l'an sur les Obligations de 10 Livres Sterling de son Emprunt 5 p.c. Or de 1920.
+
+Les coupons devront être présentés à l'une des Banques désignées ci-dessus ou à tout Banquier autorisé.
+
+En cas de perte ou de destruction de ce coupon, il ne sera pas remplacé.
+
+---
+
+## English Translation:
+
+**Header on each coupon:**
+
+REPUBLIC OF PERU
+OF THE 5% GOLD LOAN
+OF 1920 FOR £720,620
+
+[Each coupon contains:]
+
+Government Obligations at 5% guaranteed by the Government of the Republic of Peru, authorized by Decree of 13 July 1920.
+
+The Government of the Republic of Peru will pay to the bearer, on [DATE] in London, Paris or Amsterdam, upon presentation and surrender of this coupon, the sum of [AMOUNT] representing the semi-annual interest at 5% per annum on the Obligations of 10 Sterling Pounds of its 5% Gold Loan of 1920.
+
+Coupons must be presented at one of the designated Banks above or to any authorized Banker.
+
+In case of loss or destruction of this coupon, it will not be replaced.
+
+---
+
+## Coupon Numbers and Values Visible:
+
+Each coupon displays a sequential number and denomination. Numbers visible include (from top to bottom, left to right):
+
+**Row 1:** 1, 18, 39, 52
+**Row 2:** 12, 25, 36, 51
+**Row 3:** 11, 11, 11, 50
+**Row 4:** 10, 23, 36, 49
+**Row 5:** 9, 22, 35, 48
+**Row 6:** 8, 21, 34, 47
+**Row 7:** 7, 20, 33, 46
+**Row 8:** 6, 10, 32, 45
+**Row 9:** 5, 9, 31, 44
+**Row 10:** 4, 8, 30, 43
+**Row 11:** 3, 7, 29, 42
+**Row 12:** 2, 6, 28, 41
+**Row 13:** 1, 5, 27, 40
+**Row 14:** 14, 13, 26, 39
+
+All denominations shown as "L10" (10 Pounds Sterling) with "L0.5.0" notation
+
+---
+
+## Notable Markings:
+
+- Green ornamental border on each coupon
+- Decorative corner designs typical of bond coupons
+- Text printed in serif font
+- "L0.5.0" appears to indicate the interest payment amount (10 shillings, or half a pound)
+- Page appears to be a specimen sheet or uncut proof
+- Language: French (official Peruvian government bonds were frequently issued in French for European markets)

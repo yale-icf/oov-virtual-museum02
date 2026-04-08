@@ -1,0 +1,88 @@
+# Russian Imperial 5% Perpetual Income Bond, 1822
+
+## Original Text (Russian):
+
+**Header:**
+РУБЛИ 960                    1822 года                    £48 Sterling
+№ 60371                                                     № 13172
+
+**Main Title:**
+НЕПРЕРЫВНЫЙ ДОХОД ПО 5 НА СТО.
+
+**Body Text:**
+
+Свидетельствую о непрерывном доходе на капиталь, внесенный в Государственную Долговую книгу Комиссии потагации долгов, состоящий в девяти стах шестидесяти рублях серебром, равняющихся 1/8 фунтами стерлингов.
+
+Записанный 1го Марта 1822.
+
+Книга / страни. 266 2 займа Лит. С.
+
+[Long paragraph of conditions regarding the perpetual income, interest payments, and bank obligations]
+
+**Extraction Clauses (§ sections):**
+
+§ 22. Ежегодный непрерывный доход, равно как и наличные срочные должки, производящся в мирное и военное время без всякого различия, в дружественной ли или враждебной нации принадлежать владельцу.
+
+§ 23. В случае смерти иностранного вкладчика без завещания, безсчетный долг иметь припадлежать его наследникам по праву и порядку, указанные в законе.
+
+§ 24. Капитала, в безсчетный долг обращенные, составляя непрерывную собственность, не поддерживаюся сервисству ни по казенным, ни по частным исками и исключая, если весь или часть капитала предстана в залогу по подряду, или другим судебным с каждою или частичною долгом, и не облегчение всего в такового случаях одной подлежишей объемов в льдах и взысканиях. Равным образом личные капиталы ни в каком случаи не подлежать финансам налогам.
+
+§ 25. Иципа не можетъ быть прочтен его желания принужден к обращению получение всего или части капитала, ежели не Государствою, но дабы со другой страны непрерывника вольном больше удобность обращении одной, когда пожелается, в наличные деньги Комиссия имеете употребить на выкупе оныхъ по курсу особенной капитали потагации, ежегодно сверхь нащешега непрерывных доходов на предмет сей назначенный.
+
+**Signatures:**
+
+За Управляющего [signature - unclear name]
+
+Бухгалтеръ [signature - unclear name]
+
+---
+
+## English Translation:
+
+**Header:**
+RUBLES 960                    Year 1822                    £48 Sterling
+No. 60371                                                    No. 13172
+
+**Main Title:**
+PERPETUAL INCOME AT 5 PERCENT
+
+**Body Text:**
+
+I certify regarding the perpetual income on capital deposited in the State Loan Bank Commission for the Payment of Debts, consisting of nine hundred sixty silver rubles, equivalent to one-eighth pounds sterling.
+
+Registered 1st March 1822.
+
+Book / page. 266 2nd Loan, Literature S.
+
+[Long paragraph of conditions regarding perpetual income, interest payments, and bank obligations concerning the treatment of debt during times of peace and war, between friendly or hostile nations, belonging to the owner.]
+
+**Extraction Clauses (§ sections):**
+
+§ 22. The annual perpetual income, as well as cash payments due, which are produced in times of peace and war without any distinction, whether belonging to a friendly or hostile nation, shall belong to the owner.
+
+§ 23. In the event of death of a foreign depositor without a will, the perpetual debt shall belong to his heirs by right and according to the order indicated in the law.
+
+§ 24. Capital converted into perpetual debt, constituting continuous property, shall not be subject to any state or private claims and shall be exempt, unless all or part of the capital is pledged as collateral under contract or for other judicial purposes with each or partial debt, and shall not alleviate the entire amount in such cases...
+
+§ 25. The beneficiary cannot be compelled against his will to the conversion of receipt of all or part of the capital, except by the State; but in order that from another side the income holder should have the convenience of conversion of the same whenever he desires into cash, the Commission shall have the right to use for the purchase thereof according to the special price of the loan, annually in addition to the perpetual income designated for this purpose.
+
+**Signatures:**
+
+For the Manager [signature]
+
+Cashier [signature]
+
+---
+
+## Notable Markings:
+
+- **Red fiscal/revenue stamp** in upper right with imperial double-headed eagle
+- **Pink wax seal** with Cyrillic text
+- **Serial numbers:** No. 60371 (left), No. 13172 (right)
+- **Dual denomination:** 960 Rubles / £43-48 Sterling (indicating international investor market)
+- **Date:** March 1, 1822
+- **Year:** 1822
+- **Official signatures** in ink (names partially illegible)
+- **Archive stamps/marks** on left margin indicating library/institutional preservation
+- **Handwritten notations** in upper right corner
+- **Multiple stamped impressions** indicating official handling and authentication

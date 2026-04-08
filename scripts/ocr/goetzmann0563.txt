@@ -1,0 +1,47 @@
+# Transcription
+
+**Original (French):**
+
+This is a coupon sheet containing 64 individual coupons arranged in a 4×16 grid. Each coupon is identical in structure with the following text:
+
+COMPAGNIE IMPERIALE
+
+CHEMINS DE FER ETHIOPIENS
+Action N° 01,927
+[COUPON TYPE - varies by position]
+
+The coupon types listed are:
+- QUARANTE-HUITIÈME COUPON (48th Coupon)
+- TRENTE-SIXIÈME COUPON (36th Coupon)
+- VINGT-QUATRIÈME COUPON (24th Coupon)
+- DOUZIÈME COUPON (12th Coupon)
+- QUARANTE-SEPTIÈME COUPON (47th Coupon)
+- TRENTE-CINQUIÈME COUPON (35th Coupon)
+- VINGT-TROISIÈME COUPON (23rd Coupon)
+- ONZIÈME COUPON (11th Coupon)
+
+[And continuing in descending numerical order through to:]
+- PREMIER COUPON (1st Coupon)
+
+Each coupon displays a numerical value in the upper right corner (ranging from 48 down to 1).
+
+---
+
+**English translation:**
+
+IMPERIAL COMPANY
+
+ETHIOPIAN RAILWAY LINES
+Share No. 01,927
+[COUPON TYPE - varies by position]
+
+The coupon numbers descend sequentially from the 48th Coupon to the 1st Coupon.
+
+---
+
+**Notable markings:**
+
+- All coupons feature decorative ornamental borders
+- Red/brown printing on cream-colored paper
+- Share/Action number: 01,927 (consistent throughout)
+- Systematic numbering system from 48 to 1

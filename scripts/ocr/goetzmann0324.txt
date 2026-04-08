@@ -1,0 +1,57 @@
+# Transcription
+
+**Original (Japanese):**
+
+**Header (Top):**
+第十面割引勤業債券
+乙出應
+
+**Main Title (Center, around Mount Fuji image):**
+日本勤業銀行 (Japan Industrial Bank)
+
+**Date Information (Left side):**
+七月十八日まで
+七月十五日より
+
+**Price Circle (Top Right):**
+三千円
+勤増金
+
+**Body Text (Center, arranged vertically in columns):**
+△ △ △ △
+買い時は十円、遠へ切りからあ、初稅金は本年十月・初回抽籤は本年十月、割金は初回毎年四月・十月、二回以上に百三十三円、三百三十三円◎、二千円本本◎、
+
+**Footer (Bottom):**
+日本勤業銀行本店行
+
+---
+
+## English Translation:
+
+**Header:**
+10th Issue Discount Industrial Bond
+Issued by [Bank]
+
+**Date Information:**
+From July 15 to July 18
+
+**Price Circle:**
+3,000 Yen
+Increment Fund
+
+**Body Text (approximate):**
+△ △ △ △
+Purchase price is 10 yen per share, cutting from the distance, initial tax payment this year in October, first lottery draw this year in October, dividend payments April and October each year in two or more installments of 133 yen, 333 yen◎, 2,000 yen principal◎
+
+**Footer:**
+Japan Industrial Bank Head Office
+
+---
+
+## Notable Markings:
+
+- Circular seal with "三千円勤增金" (3,000 Yen Increment Fund) in top right
+- Mount Fuji (snow-capped mountain) as central decorative image
+- Teal/dark blue background with cream/beige text and imagery
+- Vintage printing style typical of early 20th century Japanese financial documents
+- Text arranged in traditional vertical columns (right to left reading)

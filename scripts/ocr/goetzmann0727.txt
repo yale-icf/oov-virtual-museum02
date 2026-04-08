@@ -1,0 +1,73 @@
+# Transcription of Romanian Financial Document
+
+**Original (French/Romanian):**
+
+## LEFT PAGE (Bond Certificate Sheet)
+
+**Header Section:**
+BONS REPRÉSENTATIFS | BONS REPRÉSENTANT | GUTSCHEINE | ISANLI DEVLET ÜMLÜMİYETİ
+Annuités ayant de la | of the Ottoman Public Debt | Rückständige Jahresleistungen | İstikrazi İslamı Senesinin
+de la dette Ottomane totale | | der Rumänischen Anleihen | Muhasası Senedleri
+
+MONTANT GLOBAL | TOTAL AMOUNT | GESAMTBETRAG | TOTAL MEBLAĞA
+[Multiple language versions of same information]
+
+**Four Bond Titles displayed:**
+
+1. **Titre de UN Bon au Porteur** (Title of ONE Bond to Bearer)
+   - Obligation of ONE Bond to Bearer
+   - Number: **175,406**
+   - Amount: de l'un 22 ou à 200 couvres fr.500
+   [Contains detailed French text regarding bond terms]
+
+2. **Obligation of ONE Bond to Bearer** (English version)
+   - Number: **175,406**
+   - Amount: of £12 or £20 or Fr.Francs 500
+   [English language terms and conditions]
+
+3. **Titel einer EINE Gutschein aus den Inhaber** (German version)
+   - Number: **175,406**
+   - [German language terms]
+
+4. **Hamilé Muharrer BİR Senettir** (Turkish version)
+   - Number: **175,406**
+   - [Turkish language terms]
+
+**Body Text (Multiple languages):**
+
+Each bond certificate contains extensive terms and conditions in French, English, German, and Turkish including:
+
+- AMORTISSEMENT (Amortization details)
+- CONDITIONS GÉNÉRALES (General Conditions)
+- PART CONTRIBUTIVE DES DIVERS ÉTATS (Contributive Share of the Various States)
+- Tables of numerical data showing distribution percentages among states
+
+**Notable sections visible:**
+- DÉPÔT DES CONTRATS (Deposit of Contracts)
+- GARANTIE (Guarantee)
+- RÉCLAMATIONS (Claims procedures)
+
+---
+
+## RIGHT PAGE (Coupon Sheet)
+
+Repeating vertical strips of numbered coupons, each marked:
+- **№ 175,406**
+- Multiple identical coupon designs with decorative borders
+- Red circular stamps/seals visible on multiple coupons
+- Text indicating these are interest-bearing coupons
+
+Each coupon strip contains similar text repeated, with reference number **175,406** appearing consistently throughout.
+
+---
+
+**Notable Markings:**
+
+1. **Red Circular Seal** - Visible on both pages, appears to be official Romanian government or financial authority stamp
+2. **Decorative Border** - Ornate turquoise/teal Art Deco pattern framing entire document
+3. **Serial Number**: **175,406** - appears on all four bond certificates and throughout coupon sheet
+4. **Official Stamps** - Red circular stamps on multiple coupons on right page
+5. **Date References** - Series references including "1928" visible on bond titles
+6. **Multiple Language Headers** - Document presented in French, English, German, and Turkish to facilitate international trading
+
+**Document Type**: This is a **coupon bond** (obligation au porteur) - a bearer security allowing for interest collection through detachable coupons.
