@@ -969,29 +969,26 @@ body.homepage {
 
 /* ===== About the Collection Section ===== */
 .about-section {
-  background: var(--navy);
+  position: relative;
   border-top: 3px solid var(--gold);
   padding: 5rem 2rem;
+  background-image: url('../images/ICF_Hallway.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 31, 63, 0.82);
 }
 
 .about-content {
-  max-width: 1100px;
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 380px;
-  gap: 4rem;
-  align-items: center;
-}
-
-.about-image {
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
-}
-
-.about-image img {
-  width: 100%;
-  display: block;
 }
 
 .about-content h2 {
@@ -1366,15 +1363,6 @@ body.homepage {
 
   .about-section {
     padding: 3rem 1.25rem;
-  }
-
-  .about-content {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-  }
-
-  .about-image {
-    order: -1;
   }
 
   .about-content h2 {
