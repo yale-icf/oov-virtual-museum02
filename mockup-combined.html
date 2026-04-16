@@ -424,6 +424,80 @@
       line-height: 1.4;
     }
 
+    /* ── Archive Access ── */
+    .cmb-archive {
+      background: var(--parchment);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      border-top: 1px solid var(--parchment-dark);
+      border-bottom: 1px solid var(--parchment-dark);
+    }
+    .cmb-archive-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+    .cmb-archive-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--navy);
+      margin-bottom: 0.75rem;
+    }
+    .cmb-archive-sub {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 1.75rem;
+    }
+    .cmb-archive-row {
+      display: flex;
+      max-width: 540px;
+      margin: 0 auto 1.5rem;
+      gap: 0.5rem;
+    }
+    .cmb-archive-input {
+      flex: 1;
+      padding: 0.8rem 1.1rem;
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      border: 1.5px solid var(--parchment-dark);
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--text);
+    }
+    .cmb-archive-input:focus { outline: none; border-color: var(--navy); }
+    .cmb-archive-btn {
+      padding: 0.8rem 1.5rem;
+      background: var(--navy);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Source Sans 3', sans-serif;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .cmb-archive-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .cmb-archive-link {
+      font-size: 0.85rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .cmb-archive-divider {
+      color: var(--parchment-dark);
+      font-size: 0.85rem;
+    }
+
     /* ── Collection Spotlight ── */
     .cmb-spotlight {
       background: var(--navy);
@@ -690,35 +764,22 @@
   </section>
 
   <!-- Browse: Country + Document Type + Publication + Era -->
-  <section class="cmb-section cmb-browse">
-    <div class="cmb-section-inner">
-      <div class="cmb-section-header">
-        <h2 class="cmb-section-title">Explore by Country</h2>
-        <a href="map.html" class="cmb-section-link">View map &rarr;</a>
-      </div>
-      <div class="cmb-country-grid">
-        <a href="gallery.html?country=United+Kingdom" class="cmb-country-card">
-          <div class="cmb-country-img"><img src="thumbnails/goetzmann0540.jpg" alt="" loading="lazy"></div>
-          <div class="cmb-country-body">
-            <div class="cmb-country-name">United Kingdom</div>
-            <div class="cmb-country-count">191 items</div>
-          </div>
-        </a>
-        <a href="gallery.html?country=United+States" class="cmb-country-card">
-          <div class="cmb-country-img"><img src="thumbnails/goetzmann0181.jpg" alt="" loading="lazy"></div>
-          <div class="cmb-country-body">
-            <div class="cmb-country-name">United States</div>
-            <div class="cmb-country-count">132 items</div>
-          </div>
-        </a>
-        <a href="gallery.html?country=Netherlands" class="cmb-country-card">
-          <div class="cmb-country-img"><img src="thumbnails/goetzmann0004.jpg" alt="" loading="lazy"></div>
-          <div class="cmb-country-body">
-            <div class="cmb-country-name">Netherlands</div>
-            <div class="cmb-country-count">88 items</div>
-          </div>
-        </a>
-      </div>
+  <section class="cmb-archive">
+    <div class="cmb-archive-eyebrow">Archive Access</div>
+    <h2 class="cmb-archive-title">Search all 545 documents</h2>
+    <p class="cmb-archive-sub">Full-text search across titles, descriptions, countries, currencies, and more.</p>
+    <div class="cmb-archive-row">
+      <input class="cmb-archive-input" type="text" placeholder="e.g. &ldquo;Dutch East India Company&rdquo; or &ldquo;1890 railroad bond&rdquo;&hellip;">
+      <button class="cmb-archive-btn">Search</button>
+    </div>
+    <div class="cmb-archive-links">
+      <a href="gallery.html" class="cmb-archive-link">Browse by type</a>
+      <span class="cmb-archive-divider">/</span>
+      <a href="map.html" class="cmb-archive-link">Browse by country</a>
+      <span class="cmb-archive-divider">/</span>
+      <a href="gallery.html?period=19th+Century" class="cmb-archive-link">Browse by era</a>
+      <span class="cmb-archive-divider">/</span>
+      <a href="glossary.html" class="cmb-archive-link">Document type glossary</a>
     </div>
   </section>
 
