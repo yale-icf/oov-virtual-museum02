@@ -1880,3 +1880,20 @@ Audit trail for the conformance pass. Full old/new text is in git history; this 
 - 3 page descriptions revised
 - issueYear corrected 1892->1890 (bond dated and company incorporated 1890; metadata wrong); vignette is Nashville, Tenn. civic building (not generic 'residential estate'); trustee is 'American Loan & Trust Company' (coupons), interest payable quarterly at $7.50/coupon
 
+### goetzmann0134
+- No four-digit year legible on samples; 'GR' cypher and Georgian-era styling indicate c. late 18th-early 19th century but cannot pin a specific year. Set is heterogeneous (carriage trade card, satirical/theatrical character cards, court-card series, plain handbills) so the single deck title 'Fortune's Carriage' names only the first item; consider a broader set title. Sample handbill printed by Evans & Ruffy, 29 Budge Row; agent Swift at 11 Poultry / 12 Charing Cross / 31 Aldgate.
+
+### goetzmann0191
+- 23 page descriptions revised
+- clean
+
+### goetzmann0236
+- title: "Acts of Parliament, Anno Regni Georgii Regis Octavo (Page 1 of 38)" -> "Act of Parliament, 8 George I (1722): paying off Exchequer Bills and ease to the South-Sea Company"
+- 37 page descriptions revised
+- Per-page count (37) differs from imported title's 'Page 1 of 38'; pages renumbered 1 of 37 to 37 of 37 matching the 37 page ids in the record.
+
+### goetzmann0274
+- title: "Acts of Parliament, Anno Regni Georgii II Regis Vicesimo Quarto" -> "Anno Regni Georgii II Regis Vicesimo Quarto: An Act for raising money by Exchequer Bills to pay off the South Sea Annuities"
+- 18 page descriptions revised
+- clean
+
