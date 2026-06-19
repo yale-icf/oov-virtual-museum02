@@ -14,7 +14,7 @@ Applying `DESCRIPTION_STYLE_GUIDE.md` across the collection. Multi-session effor
 - [x] Agreed edits applied: descriptions 0001, 0002, 0011, 0012, 0019 (+ 0002 `issueYear` 1943)
 - [x] Title edits applied (pending master-Excel sync): 0004, 0186, 0226, 0383, 0454, 0677
 - [x] **Conformance pass — ALL 477 standalone descriptions revised** (image-based; description + title + issueYear). Drafts archived in `drafts/applied/`. Legacy essays (0900/0904/0908/0909/0910) deliberately preserved per guide §4.
-- [ ] **Per-page image descriptions** (63 multi-page items / 386 sub-pages; incl. 0028 = 51-card deck). Multi-page PRIMARIES mostly still un-revised too (only 0004/0012/0028/0079/0181 done).
+- [x] **Per-page image descriptions DONE** — all 63 multi-page items: 57 small items (primary + per-page), 3 pamphlets (primary + terse page stubs: 0191/0236/0274), 3 illustration sets per-card (0028 51 cards / 0079 55 cards / 0134 45 lottery handbills). 0020 rewritten + dated 1705. Zero non-legacy boilerplate remains.
 - [ ] **Metadata-field fixes** for "+1 shift" / mislabeled records: agents corrected description+title+issueYear but NOT currency/language/issuingCountry/creator — see flags log (e.g. 0499, 0501, 0502, 0599, 0649).
 - [ ] Transcription/translation audit + regenerate garbled (e.g. 0004)
 - [ ] 0020: rewrite from images + `issueYear` 1705
