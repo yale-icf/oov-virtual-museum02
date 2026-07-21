@@ -497,6 +497,16 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .rec-sides span{cursor:pointer;user-select:none}
 .rec-sides span.pg{background:rgba(12,26,46,.82);color:var(--muted-2);cursor:default}
 .rec-sides span[aria-disabled="true"]{opacity:.35;cursor:default}
+/* prev/next RECORD arrows on the left/right edges of the deep-zoom stage */
+.rec-recnav{position:absolute;top:50%;transform:translateY(-50%);z-index:6;
+  width:42px;height:66px;display:flex;align-items:center;justify-content:center;
+  font-family:inherit;font-size:30px;line-height:1;color:var(--fg);
+  background:rgba(12,26,46,.7);border:1px solid var(--line);border-radius:6px;
+  cursor:pointer;user-select:none;transition:background .15s,border-color .15s,color .15s,opacity .15s}
+.rec-recnav.prev{left:16px}
+.rec-recnav.next{right:16px}
+.rec-recnav:hover{background:rgba(12,26,46,.95);border-color:var(--brass);color:var(--brass)}
+.rec-recnav:disabled{opacity:.25;cursor:default;pointer-events:none}
 .rec-alsofiles .f{cursor:pointer}
 .rec-alsofiles .f.on{border-color:var(--brass)}
 .rec-alsofiles .f.on img{opacity:.85}
